@@ -1,6 +1,6 @@
 ## Vanilla-JS Single-Page-Application der digitalen Ginza-Edition
 
-Diese digitale Edition ist Teil des Forschungsprojekts **"Ginza – Die „Heilige Schrift" der Mandäer – Edition, Übersetzung und Kommentierung des Linken Ginza (ginza smala)"**. Das Vorhaben ist gefördert durch die Deutschen Forschungsgemeinschaft (DFG) und angesiedelt an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW).
+Diese digitale Edition ist Teil des Forschungsprojekts **"Ginza – Die "Heilige Schrift" der Mandäer – Edition, Übersetzung und Kommentierung des Linken Ginza (ginza smala)"**. Das Vorhaben ist gefördert durch die Deutschen Forschungsgemeinschaft (DFG) und angesiedelt an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW).
 
 ### Projektinformationen
 
