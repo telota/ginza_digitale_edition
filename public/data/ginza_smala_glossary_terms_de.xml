@@ -1,0 +1,1046 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="ginza_glossar_register">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sachbegriffe</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Gehört zur ediarum-App für eXist.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Hybrid: consult project description and document history for details.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="ed_vrp_bxr_dgc">
+                    <label type="reg">kana</label>
+                    <note>
+                        <p>Der ‚Urbehälter‘ kana, bezeichnet den Ort, wo die Seele nach dem Tod
+                            zurückkehren kann.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_qwl_mzr_dgc">
+                    <label type="reg">rahmia</label>
+                    <note>
+                        <p>rahmia (sg. rahma) bedeutet eigentlich ‚Freund, Erbarmen‘, daneben
+                            ‚Liebe, Hingabe‘, ist aber auch die Bezeichnung für eine Gattung von
+                            Gebeten. Es handelt sich dabei um Gebetssequenzen für den Tagesablauf,
+                            die als rahmia benannt werden und mehrere Einheiten bauata umfassen (s.
+                            ML 171-183).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ypq_w1s_dgc">
+                    <label type="reg">eṣṭuna</label>
+                    <note>
+                        <p>eṣṭuna bedeutet ‚Säule, Stütze, Rumpf‘ und wird in übertragenem Sinne für
+                            den Körper verwendet (MD 355f.). In der mandäischen Literatur wird
+                            zwischen einem irdischen und einem himmlischen Körper unterschieden. Als
+                            makrokosmischer Körper bezeichnet eṣṭun kasia (wörtlich ‚Körper, Säule
+                            des Verborgenen‘) den Leib des ersten himmlischen Menschen Adam Qadmaia
+                            oder Adam Kasia. Dagegen wird eṣṭun pagria oder eṣṭuna d-pagria als
+                            Bezeichnung für den mikrokosmischen Körper verwendet, und zwar als
+                            Körper des ersten irdischen Menschen, des Adam [d-]Pagria. Mehrere
+                            Handschriften haben für eṣṭuna die Variante eṣṭla ‚Gewand, Kleid‘ (MD
+                            356), die in diesem Zusammenhang auch passen würde.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_jkq_bvs_dgc">
+                    <label type="reg">Ganzibra</label>
+                    <note>
+                        <p>Als Ganzibra wird die nach dem Priester (tarmida) nächsthöchste Stufe der
+                            mandäischen Hierarchie bezeichnet. Es ist ein iranisches Lehnwort und
+                            bedeutet ‚Schatzhalter, Schatzmeister‘ (MD 77).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ybf_jvs_dgc">
+                    <label type="reg">bit ginza</label>
+                    <note>
+                        <p>Schatzhaus bit ginza, wörtlich ‚das Haus des Ginza‘.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_lrp_cws_dgc">
+                    <label type="reg">hamra</label>
+                    <note>
+                        <p>‚Wein‘ hamra ist wahrscheinlich das wichtigste kultische Ingrediens der
+                            mandäischen Zeremonien. In der Weinschüssel, die den mütterlichen Uterus
+                            symbolisiert, kommt die Verbindung des männlichen Elements (Wassers =
+                            Samen) mit dem weiblichen (Wein) zustande. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_pvc_wws_dgc">
+                    <label type="reg">klila</label>
+                    <note>
+                        <p>Der Kranz (klila), der aus Myrtenzweigen hergestellt wird, wird bei
+                            verschiedenen Zeremonien unter dem Turban getragen. Die Myrte (asa) ist
+                            als immergrüne Pflanze Symbol des Lebens und der Unsterblichkeit
+                            (Rudolph 1961, 46f.). (s. auch Gs 11,7, klil zakauata ‚Kranz der
+                            Siege‘).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_khs_jjt_dgc">
+                    <label type="reg">Planeten</label>
+                    <note>
+                        <p>Die Planeten (šibiahia), sieben an Zahl, versuchen den Aufstieg der Seele
+                            zum Lichtreich zu verhindern und gelten deshalb in der mandäischen
+                            Religion als böse. Die auf der Erde vom mandäischen Priester
+                            durchgeführten Zeremonien sollen die unheilbringende Wirkung der
+                            Planeten aufheben. Es gab anscheinend damals Mandäer, die möglicherweise
+                            unter Einfluss der benachbarten Religionen standen, für welche die
+                            Planeten eine positive Rolle hatten.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_crm_mkt_dgc">
+                    <label type="reg">Löwe</label>
+                    <note>
+                        <p>Der reißende Löwe (aria haṭipa): In der mandäischen Schrift Diuan Abatur,
+                            die das Schicksal der Seele nach dem Tod beschreibt, gibt es ein
+                            ‚Purgatorium des Löwen‘, das das Wachthaus (maṭarta) des
+                            Tierkreiszeichens Löwe bezeichnet. Dasselbe Werk berichtet auch von
+                            einem Wachthaus der sieben Planeten, das von einem Affen und einem Löwen
+                            bewacht wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_awv_bp5_dgc">
+                    <label type="reg">Drache</label>
+                    <note>
+                        <p>„Der Drache (tanina), der die Welt umkreist, dessen Kraft niemand
+                            gewachsen ist“. Das Drachenmotiv (tanina) ist in den mandäischen Werken
+                            gut überliefert. Es kommt nicht nur im linken Ginza (s. auch Gs 14,18),
+                            sondern auch im Johannesbuch (Jb 98,11; Jb 210,5) vor, wo er mit
+                            Leviathan (liuiatan tanina) identifiziert wird. Eine andere Ginzastelle
+                            (Gs 53,2) erwähnt die fressenden Drachen (taninia aklia). Diese Funktion
+                            übernimmt der Drache auch im Diuan Abatur im Wachthaus von Bel.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_anx_kp5_dgc">
+                    <label type="reg">Die Zwölf</label>
+                    <note>
+                        <p>Mit den Zwölf (trisar) sind die Tierkreiszeichen gemeint, die so wie die
+                            sieben Planeten einen negativen Einfluss auf das Leben der Mandäer
+                            haben.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_u3c_fr5_dgc">
+                    <label type="reg">himiana</label>
+                    <note>
+                        <p>Der Gürtel (himiana) bezeichnet ein wichtiges Stück des kultischen
+                            Gewandes und wird in Nachahmung der Lichtwesen von den mandäischen
+                            Priestern getragen. Das Wort ist iranischen Ursprungs (s. Rudolph 1961,
+                            55, Anm. 6 und Widengren 1960, 94).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_w5f_5h1_2gc">
+                    <label type="reg">rušuma</label>
+                    <note>
+                        <p>Das Zeichen (rušuma) oder die ‚Zeichnung‘ ist eine rituelle Handlung, die
+                            bei der mandäischen Taufe durchgeführt wird: der Priester streicht die
+                            Stirn des Täuflings mit seiner Rechten dreimal mit Wasser von rechts
+                            nach links. Diese Handlung erfolgt gleich nach der eigentlichen Taufe,
+                            während sich die beiden Teilnehmer, der Priester und der Täufling, noch
+                            im Taufwasser befinden. Am Ufer wird eine ähnliche Handlung vorgenommen:
+                            die Ölzeichnung, die Sesamöl statt Wasser verwendet.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_sx3_q2p_2gc">
+                    <label type="reg">Wachthaus der Sonne</label>
+                    <note>
+                        <p>Das
+                            Wachthaus der Sonne wird im Werk Diwan Abatur beschrieben: „In diesem
+                            Wachthaus
+                            werden die Männer, die sich im Blut der Ruha bekleiden ausgefragt. Es
+                            werden
+                            Frauen ausgefragt, die poliertes Gold tragen. Es werden alle Seelen der
+                            Zwölf
+                            Toren ausgefragt. In diesem Wachthaus wird jeder ausgefragt, der in vier
+                            Jordanen taucht.“</p>
+                    </note>
+                </item>
+                <item xml:id="ed_dwl_mfp_2gc">
+                    <label type="reg">pihta</label>
+                    <note>
+                        <p>Pihta, das mandäische
+                            Sakramentsbrot, hat seinen Ursprung in der Lichtwelt und symbolisiert
+                            die
+                            jenseitige Speise (Zur Etymologie von pihta vgl. Rudolph 1961, 113f.).
+                            Ohne
+                            seine rituelle Verzehrung sind kein Aufstieg und keine Rückkehr in das
+                            Lichtreich möglich.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_jpj_jwp_2gc">
+                    <label type="reg">sahra</label>
+                    <note>
+                        <p>Sahra, pl. sahria, ist
+                            eine allgemeine Bezeichnung für Dämonen, die möglicherweise durch
+                            Metathesis aus
+                            der aram. Wurzel SRḤ ‚zerstören, verderben‘ entstanden ist (vgl. MG
+                            113,4 und
+                            CAL.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ppf_rwp_2gc">
+                    <label type="reg">humarta</label>
+                    <note>
+                        <p>Humarta, st. abs.
+                            humra, wird als ‚Amulettgeist‘ (MG 105,17) oder ‚kleine Steinchen,
+                            Muschel‘
+                            (Ginza 53) übersetzt. Es handelt sich dabei ursprünglich um kleine
+                            Gegenstände,
+                            die im Zusammenhang mit nichtmandäischen Gottheiten standen, die später
+                            dämonisiert wurden. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_vc4_cxp_2gc">
+                    <label type="reg">nukraia</label>
+                    <note>
+                        <p>Nukraia ist ein
+                            Adjektiv zur näheren Bestimmung des höchsten Wesens in der mandäischen
+                            Mythologie, welches als ‚fremd, fremdartig, erhaben, transzendent‘
+                            wiedergegeben
+                            werden kann. Nöldeke setzt nukraia dem gr. ἄγνωστος gleich (MG 326). Das
+                            mandäische nukraia erinnert an die Vorstellung Markions von einem
+                            ‚fremden‘
+                            Gott.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_zsm_lxp_2gc">
+                    <label type="reg">ṭina</label>
+                    <note>
+                        <p>Die Erschaffung des
+                            menschlichen Körpers aus Lehm (ṭina) kommt nur an dieser Stelle im
+                            Linken Ginza
+                            und noch im Johannisbuch (Jb 4,12) vor.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_jsq_vxp_2gc">
+                    <label type="reg">daiua</label>
+                    <note>
+                        <p>Daiua, pl. daiuia, ist
+                            neben sahra die andere allgemeine Bezeichnung für ‚Dämon‘ im
+                            Mandäischen. Das
+                            Wort ist iranischer Herkunft und kommt häufig in Texten magischen
+                            Inhalts.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_mvc_ryp_2gc">
+                    <label type="reg">maškna </label>
+                    <note>
+                        <p>Maškna ist die ältere
+                            Bezeichnung fürs mandäische Heiligtum. Zur Bezeichnung des mandäischen
+                            Heiligtums werden zwei fast synonym gebrauchte Termini bimanda
+                            (*bi[t]-manda
+                            Kulthütte) und bit mašknia (Tempel) verwendet (zu den mandäischen
+                            Termini für
+                            Heiligtum s. Furlani 1956, bes. 348-352 u. 357f.). Das Werk Haran
+                            Gauaita, Z.
+                            2572, erwähnt 400 Tempeln in Bagdad und in der Umgebung (Burtea 2020,
+                            22f.).
+                            Theodor bar Koni berichtet in seinem Buch der Scholien Ende des 8. Jh.
+                            über die
+                            Sekte der Dostäer und ihre verschiedenen Bezeichnungen in Mesopotamien.
+                            In
+                            Mesene (Mayšan), im südlichsten Teil Mesopotamiens, wo sich die Mandäer
+                            bis vor
+                            kurzem aufgehalten haben, werden sie u. a. ‚Mandäer‘ und ‚Maškenäer‘
+                            (d.h.
+                            Tempelleute) genannt.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_jpb_fzp_2gc">
+                    <label type="reg">taga</label>
+                    <note>
+                        <p>Die Krone oder das
+                            Diadem (taga) ist das wichtigste priesterliche Hoheitszeichen (vgl. MII
+                            34 u.
+                            169 u. Rudolph 1961, 56f.). Das runde weiße Stoffstück repräsentiert die
+                            Lichtkrone und symbolisiert die königliche Funktion des Priesters als
+                            Herrscher,
+                            Gesetzgeber und Führer der mandäischen Gemeinde.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_it4_yzp_2gc">
+                    <label type="reg">šaruia</label>
+                    <note>
+                        <p>Mit dem Löser (šaruia)
+                            ist Ṣaureil gemeint, der Geist und Seele vom Körper nach dem Tod löst
+                            und die
+                            Seele beim Aufstieg begleitet (s.o. 2.03).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_nph_f1q_2gc">
+                    <label type="reg">daiana</label>
+                    <note>
+                        <p>Der Richter (daiana),
+                            der die Seelen der verstorbenen Mandäer richtet, ist Abatur, das
+                            Lichtwesen mit
+                            der Waage.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_rhr_ldw_2gc">
+                    <label type="reg">Šeol</label>
+                    <note>
+                        <p>Šeol (e)šiul ist die
+                            mandäischen Wiedergabe des hebräischen שְׁאוֹל, der Bezeichnung für die
+                            Unterwelt
+                            bzw. des Totenreichs.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_yw3_w2w_2gc">
+                    <label type="reg">patura</label>
+                    <note>
+                        <p>Patura bezeichnet den rituellen Tisch oder ‚Kulttisch‘. Im Gegensatz zu
+                            dem kultisch bekannteren Begriff ṭariana, der in den meisten rituellen
+                            Werken vorkommt, scheint patura der ältere Terminus zu sein. Patura hat
+                            Parallelen in anderen aramäischen Sprachen und scheint eine Entlehnung
+                            aus dem Akkadischen zu sein (MD 366).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_khn_wfw_2gc">
+                    <label type="reg">Eisenmauer</label>
+                    <note>
+                        <p>Eine Anspielung
+                            auf die Eisenmauer šur parzla findet man in den abschließenden Versen
+                            des Gebets
+                            ‚Gebunden sei das Meer‘ (ML 22, 1, XV), ein Gebet mit deutlich
+                            magischen,
+                            antidämonischen Zügen: šuba šuria dparzla hdirilia ldilia „Sieben
+                            eiserne Mauern
+                            sind um mich gelegt.“</p>
+                    </note>
+                </item>
+                <item xml:id="ed_kpw_zgw_2gc">
+                    <label type="reg">estana</label>
+                    <note>
+                        <p>Estana ‚Nord, Norden,
+                            Nord(wind)‘ hat eine wichtige religiöse Bedeutung bei den Mandäern. Es
+                            ist nicht
+                            nur die mandäische Gebetsrichtung, sondern gibt es eine alte
+                            Vorstellung, wonach
+                            die Lichtwelt im Norden liege, wo auch der Ursprung der Jordan-Flüsse zu
+                            suchen
+                            sei. Während der Zeichnung-Zeremonie nach der Taufe soll der Täufling
+                            nach dem
+                            Norden (dem ‚Tor des Gebets‘) blicken (Rudolph 1961, 74.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_kns_5hw_2gc">
+                    <label type="reg">esqta</label>
+                    <note>
+                        <p>Der Siegelring (esqta,
+                            St. cs. esqat) bezeichnet einen kleinen goldenen Ring, der vom Priester
+                            getragen
+                            wird und die Gravierung šum Iauar Ziua ‚Der Name des Iauar Ziua‘ trägt
+                            (Rudolph
+                            1961, 37. Vgl. auch ATŠ, 257 (203)).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_yng_x31_2gc">
+                    <label type="reg">maṣbuta</label>
+                    <note>
+                        <p>Die Taufe (maṣbuta), abgeleitet von der Wz. ṢBA ,untertauchen, taufen‘
+                            (MD 338), stellt den Kern des mandäischen Kults dar. Der Taufort kann
+                            jedes fließende Wasser sein, das Jordan genannt wird (zur Symbolik der
+                            mandäischen Taufe siehe Rudolph 1961,93).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_qmh_kn1_2gc">
+                    <label type="reg">škinta</label>
+                    <note>
+                        <p>Škinta (pl. škinata) bezeichnet in der Regel die himmlischen Wohnungen
+                            oder Aufent-haltsorte der Lichtwesen (Uthras). In den
+                            syrisch-manichäischen Quellen verwendet man für die Gliederungen des
+                            Lichtreiches den Begriff škīnā, welche nicht nur die hypostasierte Form
+                            des obersten Prinzips ist, sondern auch den Platz, Ort oder Raum meint,
+                            in dem dieser haust.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_c1w_5n1_2gc">
+                    <label type="reg">buta</label>
+                    <note>
+                        <p>Buta kann als ‚Bitte, Bittgebet‘ wiedergegeben werden und wird von der
+                            Wurzel BAA ‚suchen, wollen, beten‘ abgeleitet. Von der Gattung her ist
+                            buta ein Gebet von unterschiedlicher Länge in Prosa und kommt häufig im
+                            rituellen Kontext der sog. mandäischen Liturgien vor.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_hcp_l41_2gc">
+                    <label type="reg">aiar</label>
+                    <note>
+                        <p>Aiar ‚Äther‘ gehört zu den wenigen Wörtern griechischen Ursprungs im
+                            Mandäischen (MD 14). Das Wort bezeichnet nach einigen theogonischen
+                            Überlieferungen ein Urprinzip der Lichtwelt (Rudolph 1965, 17-22).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ptw_rq1_2gc">
+                    <label type="reg">musizieren</label>
+                    <note>
+                        <p>‚(Spielen) auf Pauken und Flöten‘: musizieren ist nach mandäischen
+                            Vorstellungen dämonisch und daher verboten.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_gd4_js1_2gc">
+                    <label type="reg">rumaiia</label>
+                    <note>
+                        <p>rumaiia ‚Rhomäer‘ ist die Bezeichnung von Christen aus dem oströmischen
+                            Reich, welche man auch als Byzantiner wiedergegeben kann. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_ayn_zt1_2gc">
+                    <label type="reg">simraiia</label>
+                    <note>
+                        <p>simraiia ist ein Adjektiv zur Bezeichnung eines nicht identifizierten
+                            Volkes s. auch das aramäische סמריי ‚Semarite‘ (Sokoloff, 2002,
+                            383).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_dns_51b_2gc">
+                    <label type="reg">ṭuraiia </label>
+                    <note>
+                        <p>ṭuraiia bedeutet ‚Bergleute‘, wurde von Brandt mit Turan identifiziert
+                            (Brandt, Mandäische Schriften, S. 218), mit jenem Gebiet, das in der
+                            iranischen Mythologie das Land der feindlichen Nicht-Iraner
+                            bezeichnet.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_wll_jcb_2gc">
+                    <label type="reg">malaka</label>
+                    <note>
+                        <p>M(a)lakia (sg. malaka) wird hier mit ‚Engel‘ wiedergegeben, jedoch ist
+                            die negative Konnotation dabei nicht zu übersehen. Anders als in den
+                            abrahamitischen Religionen werden die ‚guten‘ Engel im Mandäismus von
+                            den Uthras (eutria), den Lichtwesen, vertreten. Dagegen gehören die
+                            malakia eindeutig dem irdischen Bereich. So z.B. werden sie in einer
+                            Auflistung hässlicher Geschöpfe der Finsterniswelt erwähnt (Gy 279,4f.
+                            S. auch M. Lidzbarki, Uthra und Malakha, Orientalische Studien Theodor
+                            Nöldeke zum siebzigsten Geburtstag, hrsg. von Carl Bezold, Gießen 1906,
+                            S. 537-545 und ML 131, 2f.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_utx_jjb_2gc">
+                    <label type="reg">mšiha</label>
+                    <note>
+                        <p>Mšiha ‚Gesalbter, Christus‘ ist in der mandäischen Überlieferung negativ
+                            besetzt, wie die begleitenden Epitheta deutlich zeigen: mšiha d-kadba
+                            ‚Messias der Lüge‘, mšiha kadaba ‚lügnerischer Messias‘, mšiha dagala
+                            ‚Messias der Fälscher‘. Besonders an dieser Stelle ist, dass Christus
+                            zusammen mit den Planeten und der Ruha erwähnt wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_y5t_fkb_2gc">
+                    <label type="reg">Lilit</label>
+                    <note>
+                        <p>Lilit (mand. lilita, pl. liliata) ist ein dämonisches, meist weibliches
+                            Wesen, das bereits in den Sprachen und Überlieferungen aus Mesopotamien
+                            ab dem 3. Jahrtausend belegt ist. Die einzige alttestamentliche Stelle,
+                            wo Lilit (hebr. lîlît) vorkommt, ist Jesaja 34,14. Im Mandäischen ist
+                            sie sowohl im Ginza (Gy 57,14; 87,21; 139,15; 394,1; Gs 92,13) als auch
+                            in den Zauberschalen und anderen magischen Texten gut belegt (s. Furlani
+                            1954, S. 407 f., Fauth 1986, S. 66–94 und Müller-Kessler 2001, S.
+                            346-348).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_jxh_h4h_2gc">
+                    <label type="reg">tušbihta</label>
+                    <note>
+                        <p>Tušbihta ‚Lobpreis‘
+                            (MD 484) kommt häufig in der mandäischen Literatur vor, bezeichnet
+                            jedoch keine
+                            spezielle Gattung. Im Syrischen gibt es tešboḥtå als allgemeine
+                            Bezeichnung für
+                            ‚Lobgesang‘ sowie für den Gesang, dessen Text nicht dem Psalter
+                            entstammt.
+                            Syrische Dichtungen mit diesem Namen finden sich bereits im 4. Jh. Es
+                            handelt
+                            sich dabei um einfache Hymnen, deren Strophen antiphonal von zwei
+                            Halbchören
+                            alternierend vorgetragen werden (Nieten 2013, 243). </p>
+                    </note>
+                </item>
+                <item xml:id="ed_j5g_grh_2gc">
+                    <label type="reg">Wasserbäche</label>
+                    <note>
+                        <p>‚Die Wasserbäche‘ hapiqia mia bezeichnen die Wasser, welche die Lichtwelt
+                            vom Reich der Finsternis trennt. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_vqv_wwh_2gc">
+                    <label type="reg">gabara</label>
+                    <note>
+                        <p>Gabaria (sg. gabara) bedeutet ‚Helden, Riesen‘ und könnte eine Anspielung
+                            auf Genesis 6,4 sein. Mehrere Ginza-Stellen erwähnen die gabaria
+                            ḏ-hšuka ‚die Riesen aus der Finsternis‘ (s. Gy 139,12; 140,10;
+                            141,12).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_rkb_gxh_2gc">
+                    <label type="reg">alaha</label>
+                    <note>
+                        <p>Alaha (pl. alahia) wird im Mandäischen ausschließlich zur Bezeichnung
+                            fremder, d.h. falscher, Götter verwendet.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_fmf_qb3_2gc">
+                    <label type="reg">kumria</label>
+                    <note>
+                        <p>Kumria (sg. kumra) ist
+                            die Bezeichnung fremder, nichtmandäischer Priester (MD 207).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ssp_vd3_2gc">
+                    <label type="reg">zibia</label>
+                    <note>
+                        <p>Zibia (var. zabia) bezeichnet eine besondere Priesterkategorie,
+                            wahrscheinlich Opferpriester (s. MD 156).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_j3k_x23_2gc">
+                    <label type="reg">adidia</label>
+                    <note>
+                        <p>Adidia steht für eine andere Priesterklasse, die als Wahrsager fungieren
+                            (MD 7).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_y4g_xf3_2gc">
+                    <label type="reg">dukrana</label>
+                    <note>
+                        <p>Aspar dukranẖ ‚Gedenkbuch‘: dieser Ausdruck hat alttestamentarische
+                            Parallelen s. Mal 3,16, Ester 6,1 und Esra 4,15. Dukrana ‚die
+                            Totengedächtnisfeier‘ bezeichnet eine der wichtigsten Zeremonien der
+                            Mandäer. Nach dem Glauben der Mandäer ist dukrana (wörtlich Erinnerung)
+                            eine Zeremonie, bei der die Toten unsichtbar gegenwärtig sind. Der
+                            Hauptpunkt dieses Rituals ist die Erwähnung der Namen der
+                            Verstorbenen.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_xfs_zk3_2gc">
+                    <label type="reg">heilig</label>
+                    <note>
+                        <p>Die substantivierten
+                            Adjektiven qadišia uqadišata werden fast ausschließlich zur Bezeichnung
+                            von
+                            christlichen heiligen Männern und Frauen. Alle Ableitungen von der
+                            Wurzel QDŠ
+                            ‚heilig‘ werden im Kontext antijüdischer oder antichristlicher Polemik
+                            verwendet.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ign_3l3_2gc">
+                    <label type="reg">Gebet</label>
+                    <note>
+                        <p>ṣ(a)luta, der Terminus
+                            für Gebet in vielen semitischen Sprachen wird im Mandäischen nur für
+                            Gebete
+                            fremder Religionen verwendet, wobei es immer von Adjektiven wie ḏ-kadba
+                            ‚der
+                            Lüge‘ (s. auch Gy 24,8) oder ḏ-zipa ‚des Irrtums‘ (Gy 230,4) begleitet
+                            wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_y5t_yq3_2gc">
+                    <label type="reg">raza</label>
+                    <note>
+                        <p>Raza (pl. razia). Die allgemeine Bedeutung ist Geheimnis, Mysterium und
+                            damit bezeichnen die mandäischen Texte die Weisheit oder den Plan der
+                            höheren Wesen, welche nicht jedem zu-gänglich sind. Ferner ist raza das
+                            Symbol oder das Zeichen der beiden Urelemente oder Urprin¬zipien, der
+                            Mutter und des Vaters. In der mikrokosmischen Welt steht raza für die
+                            (geheimen) Funktionen und die Organe des Körpers sowie für die einfachen
+                            Elemente wie in raza d-mia „das Geheimnis des Wassers“. Raza erweitert
+                            seine Semantik auf den ganzen kultischen und rituellen Bereich und damit
+                            verbindet es Mikrokosmos und Makrokosmos. Es ist weiter die Bezeichnung
+                            für alle kultischen Handlungen sowie für die Sakramente als auch
+                            speziell für kultische Ingredienzien und Gaben. Und zuletzt dient raza
+                            zur Bezeichnung von höheren Wesen wie den Uthras. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_xcl_4r3_2gc">
+                    <label type="reg">adiaura</label>
+                    <note>
+                        <p>Helfer adiaura ist ein Wort iranischen Ursprungs (s. das mittelpartische
+                            aδyāwar, Durkin-Meisterernst 2004, 26 ‚Helfer, Freund‘ ) hat
+                            grundsätzlich zwei Bedeutungen. Die erste bezeichnet ein Lichtwesen, das
+                            die Seele auf ihrem Weg ins Lichtreich unterstützt. Die andere Bedeutung
+                            steht für den Assistenten oder den Gehilfen im kultisch-rituellen
+                            Bereich s. das Syntagma adiaura ḏ-masiqta ‚Assistent für die
+                            Massiqta-Zeremonie‘ (MD 7).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_q5l_1s3_2gc">
+                    <label type="reg">draša</label>
+                    <note>
+                        <p>Draša (pl. drašia)
+                            bedeutet nach MD 114 ‚Lehre, Doktrin, Lied, Homilie, Vortrag,
+                            Disputation,
+                            Diskussion, Buch‘ (vgl. das ‚Johannesbuch‘, wird Drašia ḏ-Iahia
+                            genannt), kommt
+                            in liturgischem Kontext häufig vor und wird meist mit Hymnus übersetzt.
+                            Wenn man
+                            jedoch berücksichtigt, dass historisch gesehen der liturgische Teil des
+                            mandäischen Kultes wahrscheinlich responsorisch gestaltet war, bilden
+                            die drašia
+                            als ‚Vorträge‘ zusammen mit den eniania ‚Responsorien‘ die Hauptelemente
+                            des
+                            mandäischen, heute nicht mehr praktizierten Wechselgesangs (s. Rudolph
+                            1961,
+                            228ff.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_lhn_js3_2gc">
+                    <label type="reg">tana</label>
+                    <note>
+                        <p>Tana. Das MD 479 geht
+                            von zwei unterschiedlichen Bedeutungen aus: tana 1 (Pl. tanania),
+                            ‚kosmischer
+                            Nebel, Dunst, Rauch‘ (vgl. syr. tennānā „Rauch“) und tana 2 als
+                            my¬thologischer
+                            Begriff bedeutend ‚Behälter, Gerät‘ (vgl. akkadisch dannu ‚Behälter,
+                            Fass‘, AHw
+                            161, und tannu ‚Holzschale‘, AHw 1319).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_d54_1t3_2gc">
+                    <label type="reg">bit arbiaha</label>
+                    <note>
+                        <p>‚Das Haus des
+                            Vierten‘ bit arbiaha bezeichnet die vierte Emanation, das Haus Ptahils.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_qdw_tt3_2gc">
+                    <label type="reg">drabša</label>
+                    <note>
+                        <p>Das Banner (drabša)
+                            gilt als Symbol der Lichtwelt (vgl. MII 108f. und Plate 12 und Rudolph
+                            1961,
+                            31f.). Das Wort ist iranischen Ursprungs (ausführlich dazu Burtea 2015,
+                            73-84).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_grn_353_2gc">
+                    <label type="reg">masiqta</label>
+                    <note>
+                        <p>Die Totenmesse
+                            (masiqta) oder der Aufstieg-Ritual (masiqta wird von der Wurzel SLQ
+                            ‚aussteigen‘
+                            abgeleitet) beschäftigt sich in erster Linie mit dem Schicksal der Seele
+                            (nišimta) und dem Geist (ruha) nach dem Tode. Sie verfolgt drei wichtige
+                            Ziele
+                            (s. Buckley 1981, 139 und Burtea 2005, 190f.). Ihr wichtigster Teil ist
+                            der
+                            Vereinigung von Seele und Geist gewidmet. Ferner sollen die beiden
+                            vereinten
+                            Teile in einen neuen, rituell erschaffenen Lichtkörper eingehen. Und
+                            schließlich
+                            soll die Totenmesse die Aufnahme des Verstorbenen in die Gemeinschaft
+                            der
+                            Vorfahren und der Lichtwesen bewirken.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_scs_gw3_2gc">
+                    <label type="reg">miṣra</label>
+                    <note>
+                        <p>Miṣra bedeutet
+                            ‚Grenzlinie oder Trennlinie‘. Im Mandäischen gibt es neben der Bedeutung
+                            ‚Grenz-
+                            oder Trennlinie‘ auch ‚Mittel zur Überbrückung eines Flusses, Seil‘ (MD
+                            269).
+                            Diese beiden Bedeutungen sind auch im Babylonisch-Aramäischen belegt,
+                            vgl.
+                            Sokoloff 2002, 672. Eine Trennlinie setzen, ist ein wichtiger Vorgang
+                            der
+                            rituellen Praxis der Mandäer, der darauf zielt, einen bestimmten Bezirk
+                            von dem
+                            übrigen Raum durch eine symbolische Linie abzusondern und ihn dadurch zu
+                            konsekrieren. Am bekanntesten ist das Ziehen einer Furche / Grenze
+                            (miṣra) bei
+                            der Wiedereinweihung der Kult¬hütte (bit manda). Ferner erscheint miṣra
+                            auf
+                            Kultgegenständen wie ṭariana oder qinta (beide können als Kulttische
+                            oder Altare
+                            bezeichnet), auf denen es verschiedene Bereiche rituell voneinander
+                            trennt
+                            werden (s. MII Plate 11a und S. 107, Fig. 6 ,The Qintha‘. Die andere
+                            Funktion
+                            findet sich in der Magie wieder: miṣra soll vor dem Angriff und der
+                            Verunreinigung durch Dämonen schützen (Siehe DC 20, 90, Burtea 2005a,
+                            90f.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_lmw_tw3_2gc">
+                    <label type="reg">Suf-Meer</label>
+                    <note>
+                        <p>Suf-Meer sup iama
+                            oder iama ḏsup mit den Bedeutungen ‚Endmeer‘ oder ‚Schilfmeer‘ erinnert
+                            an das
+                            biblische Motiv des Auszugs aus Ägypten bzw. an die Schilfmeerlegende
+                            (Ausführlich von Bucovec 2013 untersucht.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_lhg_jx3_2gc">
+                    <label type="reg">pira</label>
+                    <note>
+                        <p>Die ‚Frucht‘ pira gehört
+                            zusammen mit Ayar und dem großen Mana zu den drei Urprinzipien der
+                            mandäsichen
+                            Theogonie (Rudolph 1965,18.). Der Plural ‚Früchte‘ piria gilt als
+                            Bezeichnung
+                            für die himmlischen Wohnungen (Rudolph 1965, 38.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_unn_qq4_2gc">
+                    <label type="reg">qadišta </label>
+                    <note>
+                        <p>Die Buhlerin qadišta
+                            (wört. ‚die Heilige‘) ist eine weitere Bezeichnung der Ruha, s. ruha
+                            qadišta Gy
+                            81,4. Es handelt sich hier um ein weiteres Beispiel einer Ableitung von
+                            der
+                            Wurzel QDŠ, die im mandäischen Kontext negativ konnotiert wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_fdc_yr4_2gc">
+                    <label type="reg">šurbta</label>
+                    <note>
+                        <p>Mit šurbta ‚Stamm‘ ist
+                            die mandäische Gemeinde gemeint.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_mvj_ks4_2gc">
+                    <label type="reg">tiniana</label>
+                    <note>
+                        <p>Mit dem Zweiten
+                            tiniana ist die zweite Emanation oder das zweite Leben gemeint. Vgl.
+                            auch die
+                            zweite Berufung im manichäischen System qrāitā ḏtartēn. </p>
+                    </note>
+                </item>
+                <item xml:id="ed_pgn_yy4_2gc">
+                    <label type="reg">ekura</label>
+                    <note>
+                        <p>Ekura, pl. ekuria ist
+                            ein akkadisches Lehnwort im Mandäischen (bzw. im Aramäischen, s. ekurru
+                            AHw I
+                            196) und bezeichnet den nicht mandäischen, ursprünglich babylonischen
+                            Tempel
+                            sowie durch semantische Erweiterung die für die Mandäer dämonischen
+                            Bewohner
+                            dieser Heiligtümer (s. MD 169). Das ist ein Beispiel für die
+                            Dämonisierung
+                            spätbabylonischer Gottheiten durch die Mandäer.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_k5w_cz4_2gc">
+                    <label type="reg">patikruta</label>
+                    <note>
+                        <p>Patikruta
+                            ‚Idolatrie, Götzendienst‘ ist von patikra ‚Idol, Götze; Götzendämon‘
+                            abgeleitet.
+                            Patikra selbst ist ein iranisches Lehnwort, vgl. das
+                            manichäisch-parthische
+                            padkar ‚Bild, Statue‘ (Durkin-Meisterernst 2004, 269).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_dgk_lz4_2gc">
+                    <label type="reg">biluria uambubia</label>
+                    <note>
+                        <p>Biluria und
+                            ambubuia bezeichnen zwei Musikinstrumente, möglicherweise ein
+                            Blasinstrument und
+                            eine Flöte. Bei den Mandäern sind Musizieren und Tanzen verpönt und
+                            gehören in
+                            den Lasterkatalog. Für diese Sünden ist nach mandäischen Vorstellungen
+                            Ruha
+                            verantwortlich (s. Gy 376, S. 17–20; Ginza 405, S. 5–10). Im mandäischen
+                            Werk
+                            Diwan Abatur gibt es Illustrationen mit musizierenden Dämonen.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_blv_z1p_2gc">
+                    <label type="reg">paruanqa</label>
+                    <note>
+                        <p>Paruanqa ‚Bote,
+                            Führer; Erlöser‘ (MD363) ist ein iranisches Lehnwort (parwānqā / parwāqa
+                            ‚Königsbote‘), das auch im Syrischen und Talmudischaramäischen belegt
+                            ist (vgl.
+                            Widengren 1960, 98; Durkin-Meisterernst 2004, 280; Ciancagligni 2008,
+                            237f.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_xbh_nbp_2gc">
+                    <label type="reg">arqa qadmaita</label>
+                    <note>
+                        <p>Die Urheimat
+                            der Seele wird im Mandäischen als arqa qadmaita, wört. ‚die erste
+                            (erschaffene)
+                            Erde‘ bezeichnet. Hervorzuheben ist, dass hier arqa ‚Erde‘ und nicht
+                            alma ‚Welt‘
+                            verwendet wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_qlm_3cp_2gc">
+                    <label type="reg">marganita</label>
+                    <note>
+                        <p>Die Perle marganita
+                            als Symbol für die Seele kommt nicht nur in mandäischen Texten vor,
+                            sondern ist
+                            auch aus anderen gnostischen Texten bekannt, wie z.B. aus dem sog. ‚Lied
+                            von der
+                            Perle‘. Dort steht die Perle für die gefallene und zu erlösende Seele
+                            (s. Colpe
+                            1961, 176). Interessant sind auch die neutestamentlichen Stellen, in
+                            denen die
+                            Perle in Gleichnissen vorkommt, wie Mat. 7,6; 13,45f.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_nrk_mdp_2gc">
+                    <label type="reg">tarmida</label>
+                    <note>
+                        <p>Das Wort tarmida, pl.
+                            tarmidia, das ursprünglich ‚Jünger‘ bedeutete, wurde später als
+                            Bezeichnung für
+                            den mandäischen Priester verwendet.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_fg3_wrh_2gc">
+                    <label type="reg">Auserwählte</label>
+                    <note>
+                        <p>‚Auserwählte der Gerechtigkeit‘ bhiria zidqa ist eine andere
+                            Eigenbezeichnung der Mandäer.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_djc_5sh_2gc">
+                    <label type="reg">hilbuna</label>
+                    <note>
+                        <p>‚Wohnstätte‘ hilbunia (sg. hilbuna) hat auch die Bedeutungen ‚Ei,
+                            Behausung, Behälter, Wohnung‘ (MD 144) und kommt in unterschiedlichen
+                            mandäischen Theogonien als Aufenthaltsort und Behälter für die
+                            Lichtwesen vor. Es wird als mythische Bezeichnung für die himmlischen
+                            Wohnungen, jedoch auch als Element von Emanationsspekulationen verwendet
+                            (wie in CP, 277,6 ff. Vgl. auch Rudolph 1965, 46 ff.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_pn4_1wh_2gc">
+                    <label type="reg">mambuha</label>
+                    <note>
+                        <p>Mambuha mit der
+                            Variante mambuga bedeutet ‚Quelle, Sprudel‘ und ist die Bezeichnung des
+                            mandäischen Sakramentstrunks sowie das Abbild der himmlischen
+                            Wasserquellen (s.
+                            Rudolph 1961, 113-127).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_wjj_gxs_dgc">
+                    <label type="reg">malka</label>
+                    <note>
+                        <p>König (malka, pl. malkia) ist eine Bezeichnung für den mandäischen
+                            Priester.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ny3_tls_dgc">
+                    <label type="reg">mana</label>
+                    <note>
+                        <p>Mana ist ein fast synonymisch zu nišimta gebrauchter Terminus iranischen
+                            Ursprungs. Dieser Begriff ist nicht mit dem aramäischen mana ,Gefäß,
+                            Kleidung, Gerät‘ zu verwechseln, s. mana 1 MD 246. Zur Etymologie von
+                            mana 2 (MD 246f.) vgl. awestisch manah- ‚der innere Sinn, Geist‘, AirWb
+                            1126 und mitteliranisch -mān ,Sinn, Gemüt‘, Horn 1893, 215 (965) und MG
+                            XXXII. Der semantische Unterschied zu nišimta besteht darin, dass mana
+                            sowohl die individuelle Seele als auch die Weltseele, d. h. das erste
+                            belebende Prinzip oder Urprinzip, bezeichnen kann.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_olt_dns_dgc">
+                    <label type="reg">elana rba</label>
+                    <note>
+                        <p>Der große Baum (elana rba) ist eine Anspielung auf die Palme/Sindirka.
+                            Sindirka bezeichnet den Lebensbaum und wird als Palme zusammen mit der
+                            Lebensquelle dargestellt bzw. als solche in der Literatur erwähnt (s.
+                            Burtea 2008, 164–166.).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_pzw_3ss_dgc">
+                    <label type="reg">engirta</label>
+                    <note>
+                        <p>Es geht um die sog. engirta (pl. engir(i)ata, MD 353) ‚Brief‘ oder
+                            ‚Botschaft‘ genannten Zeremonie, wobei die Priester ein kleines
+                            Fläschchen mit Öl zubereiten, das dem Toten mit ins Grab gelegt wird
+                            (vgl. Rudolph 1961, 163).</p>
+                    </note>
+                </item>
+                <item xml:id="ed_rvs_3ts_dgc">
+                    <label type="reg">maṭarta</label>
+                    <note>
+                        <p>Die Wachthäuser (maṭarata, sg. maṭarta) sind Orte, in denen die sündigen
+                            Seelen gefangen gehalten und gefoltert werden. Sie werden in der Regel
+                            einem Planeten oder einem Lichtwesen zugeschrieben.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_vfz_l2s_ndc">
+                    <label type="reg">Mandäische Anthropologie</label>
+                    <note>
+                        <p>Wir haben hier mit den drei wichtigsten Begriffen der mandäischen
+                            Anthropologie <foreign xml:lang="myz">ruha</foreign> ‚Geist‘ (pl. <foreign
+                                xml:lang="myz">ruhia</foreign>, hier defektiv geschrieben <foreign
+                                xml:lang="myz">rhia</foreign>), <foreign xml:lang="myz">nišimta</foreign>
+                            ‚Seele‘ (pl. <foreign xml:lang="myz">nišmata</foreign>) und <foreign
+                                xml:lang="myz">pagra</foreign> ‚Körper‘. Die mandäische
+                            Anthropologie beruht auf dem Dualismus zwischen Körper (<foreign
+                                xml:lang="myz">pagra</foreign>) und Seele (<foreign xml:lang="myz">
+                            nišimta</foreign>). Hinzu tritt als drittes Element der ‚Geist‘ (<foreign
+                                xml:lang="myz">ruha</foreign>), der der Erlösung durch die Seele
+                            bedarf. <foreign xml:lang="myz">Ruha</foreign> ist der Sitz der Begierde
+                            und Wollust, und <foreign xml:lang="myz">nišimta</foreign> – ‚Seele‘
+                            bezeichnet den menschlichen Teil, der konsubstanziell mit dem Stoff des
+                            Lichtreiches ist. Der menschliche Körper wird negativ bewertet, da er
+                            aus der Materie sowohl von dem Demiurgen als auch den Vertretern des
+                            dunklen Reiches erschaffen wurde. Alle mandäischen Rituale zielen
+                            letztendlich darauf, diesen Lichtteil in die Lichtwelt zurückzuführen.
+                            Zwiespältig ist das Verhältnis zwischen <foreign xml:lang="myz">ruha</foreign>
+                            und <foreign xml:lang="myz">nišimta</foreign>. Einerseits ist <foreign
+                                xml:lang="myz">ruha</foreign> verantwortlich für alle Laster, die
+                            die Menschen plagen, andererseits bedarf der Geist der Vereinigung mit
+                            der Seele und der Zeremonien, um geläutert zu werden und ins Lichtreich
+                            zu gelangen. <foreign xml:lang="myz">Ruha</foreign> erscheint in den
+                            mandäischen Texten auch als <foreign xml:lang="myz">ruha bišta</foreign>
+                            – ‚der böse Geist‘.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_bpq_mns_ndc">
+                    <label type="reg" xml:lang="myz">Kušṭa</label>
+                    <note>
+                        <p><foreign xml:lang="myz">Kušṭa</foreign> (wörtlich ‚Wahrheit‘) ist ein
+                            zentraler Begriff der mandäischen Theologie. Er wird in der Grußformel <foreign
+                                xml:lang="myz">kušṭa asiak</foreign> ‚Kušṭa heile dich‘ beim
+                            rituellen Handschlag gebraucht, welcher Bestandteil wichtiger Zeremonien
+                            wie der Taufe (<foreign xml:lang="myz">maṣbuta</foreign>) oder der
+                            ‚Totenmesse‘ (<foreign xml:lang="myz">masiqta</foreign>) ist.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_rjq_mjv_t5b">
+                    <label type="reg">B-šumaihun d-hiia rbia </label>
+                    <note>
+                        <p>„Im Namen des Großen Lebens“ dient als Eingangsformel jeder Gattung
+                            mandäischer Texte bzw. jedes bedeutenden Abschnittes eines Werkes. Diese
+                            Formel leitet ebenfalls kleinere Einheiten, wie Ritualsequenzen, Gebete
+                            usw., ein.<note place="foot">Vgl. Rudolph 1961, 231, Anm. 10, mit
+                            Hinweisen auf die ältere Literatur.</note></p>
+                    </note>
+                </item>
+                <item xml:id="ed_o4q_ggr_dgc">
+                    <label type="reg">hiia rbia</label>
+                    <note>
+                        <p>Das große Leben (hiia rbia) ist nach der Auffassung der Mandäer die
+                            höchste Wesenheit des Lichtreich und die Quelle der daraus entstandenen
+                            Emanationen: das erste, zweite bzw. dritte Leben.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_nmj_1rc_55b">
+                    <label type="reg">Dmuta</label>
+                    <note>
+                        <p>„Abbild“. Die Grundvorstellung der mandäischen Religion besteht in einem
+                            detaillierten Parallelismus zwischen den kultischen Handlungen, die in
+                            der Lichtwelt ausgeführt werden, und solchen, die von den Mandäern auf
+                            der Erde nachgeahmt werden. Zur Bezeichnung der Entsprechungen in der
+                            Lichtwelt gibt es den Terminus technicus dmuta „Abbild“. Dieser
+                            Parallelismus betrifft auch die mandäischen Kultgegenstände.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_klk_htr_dgc">
+                    <label type="reg">mrumia mia</label>
+                    <note>
+                        <p>Die ‚Wasserhöhen‘ mrumia mia, wörtlich ‚Höhen, Himmel, Firmament aus
+                            Wasser‘ könnte eine Anspielung auf das Wasser oberhalb des Firmament aus
+                            Gen 1,7 sein.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_z5n_k4h_55b">
+                    <label type="reg">Hibil und Šitil</label>
+                    <note>
+                        <p>Hibil und Šitil sind die mandäischen Entsprechungen für die biblischen
+                            Abel und Seth.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_a2b_w3v_t5b">
+                    <label type="reg" xml:lang="myz">mšaba marai</label>
+                    <label type="alt" xml:lang="myz">marai mšaba</label>
+                    <note>
+                        <p>"mšaba marai" oder "marai mšaba" ist die formelhafte Einleitung
+                            mandäischer Texte. Sie wird meist als eine Art Titel zentriert und mit
+                            einem gewissen Abstand dem eigentlichen Text vorangestellt.<note
+                                place="foot">Vgl. dazu Burtea 2005, 155.</note></p>
+                    </note>
+                </item>
+                <item xml:id="ed_rlr_y4h_55b">
+                    <label type="reg">Naṣoräer</label>
+                    <label type="alt">naṣuraiia</label>
+                    <note>
+                        <p>Mindestens zwei Gruppen oder Schichten lassen sich anhand von
+                            Bezeichnungen im Mandäismus rekonstruieren: die Naṣoräer (mand.
+                            naṣuraia, pl. naṣuraiia), dem Namen nach die Westgruppe, und die
+                            eigentlichen Mandäer (mand. mandaia, pl. mandaiia), die babylonische
+                            Gruppe. Es scheint, dass sich die Naṣoräer-Gruppe durchsetzen und für
+                            sich das Priestertum in Anspruch nehmen konnte, wie uns der Begriff
+                            naṣiruta, etwa „priesterliche Weisheit“, verrät. Es ist dabei eine
+                            gewisse Spannung zwischen den Naṣoräern und den Mandäern nicht zu
+                            übersehen, die sich in einer gewollten Segregation beider Gruppen
+                            wiederspiegelte. So erfahren wir einerseits, dass naṣiruta geheim und
+                            nur den Priestern zugänglich sei, und andererseits, dass sich dazu sogar
+                            ein Gegenbegriff mandaiuta als Bezeichnung der Laizität etabliert hat.
+                            Von zwei Gruppen spricht ebenfalls Beyer:</p>
+                        <p>
+                            <quote>Das Mandäische übernahm die vom Jordan stammende jüdische
+                                Taufgemeinschaft der gnostischen Nasoräer, nachdem sie unter dem
+                                Druck des herrschenden Judentums im 1. Jh. n. Chr. Palästina
+                                verlassen hatte und spätestens in der Mitte des 2. Jh.s n. Chr. über
+                                Nordmesopotamien (Harran / Karrhai) nach Südbabylonien (Mesene,
+                                Khuzistan) eingewandert waren</quote>
+                            <note place="foot">Beyer 1984,
+                                61f.</note>
+                        </p>
+                        <p>, und F. de Blois, </p>
+                        <p>
+                            <quote>the surviving Mandaeo-Nazoraeans represent a synthesis of two
+                                different religious traditions: that of Nazoraean Jewish
+                                Christianity and that of the non-Christian, non-Jewish, Babylonian,
+                                semi-Iranized and quasi-gnostic complex of authentic
+                                Mandaeism.</quote>
+                            <note place="foot">De Blois 2002, 4. Von einer
+                                westaramäischen sowie einer ostaramäischen Komponente im Mandäismus
+                                geht auch Colpe 1986, 193f. aus</note>
+                        </p>
+                    </note>
+                </item>
+                <item xml:id="ed_hsv_xqr_3dc">
+                    <label type="reg" xml:lang="myz">zidqa</label>
+                    <note>
+                        <p>Almosen (<foreign xml:lang="myz">zidqa</foreign>) bekannt auch als (<foreign
+                                xml:lang="myz">zidqa brika</foreign> – ‚gesegnetes Almosen‘ ist eine
+                            Art rituelles Totenmahl, das in der Regel am Begräbnistag, aber auch bei
+                            unterschiedlichen Anlässen, wie Tempel- und Ganzibraweihe oder Hochzeit,
+                            gefeiert wird.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_ozh_g4s_ndc">
+                    <label type="reg" xml:lang="myz">Praš ziua</label>
+                    <note>
+                        <p><foreign xml:lang="myz">Praš ziua</foreign> ‚der Glanz-Euphrat‘
+                            bezeichnet die himmlische Entsprechung des irdischen Flusses, an dem
+                            viele mandäische Gemeinden in Mesopotamien gelebt und ihre Rituale
+                            praktiziert haben.</p>
+                    </note>
+                </item>
+                <item xml:id="ed_wds_h4h_55b">
+                    <label type="reg">Tibil</label>
+                    <note>
+                        <p>Tibil ist die irdische Welt, deren Entstehung als „Verdichtung“ (msuta)
+                            beschrieben wird.<note place="foot">Ausführlich dazu siehe Rudolph 1965,
+                            139ff.</note></p>
+                    </note>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

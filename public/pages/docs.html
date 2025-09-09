@@ -1,0 +1,968 @@
+<div
+  id="mainContent"
+  class="relative"
+>
+  <!-- Wrap all content that should be hidden during loading -->
+  <div
+    id="contentWrapper"
+    class="hidden"
+  >
+    <!-- Header Section with Navigation & Controls -->
+    <div class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+      <div class="flex flex-col">
+        <!-- Title & Description -->
+        <div class="flex justify-between items-center w-full">
+          <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">
+            Ginza Smala
+          </h1>
+          <h1
+            class="text-3xl font-bold text-gray-900 dark:text-gray-100 mandaic mandaic-text translate-y-2"
+            dir="rtl"
+          >
+            ࡂࡉࡍࡆࡀ ࡎࡌࡀࡋࡀ
+          </h1>
+        </div>
+
+        <!-- Toolbar -->
+        <div
+          class="mt-3 flex flex-col sm:flex-row justify-between items-center gap-4"
+        >
+          <!-- Left group - Navigation -->
+          <div class="flex items-center gap-2">
+            <div class="relative">
+              <button
+                id="navigationMenuBtn"
+                class="group relative flex items-center gap-2 h-10 px-4 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 cursor-pointer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  class="w-4 h-4"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z"
+                  />
+                </svg>
+                <span
+                  class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100"
+                >
+                  Navigation<br />öffnen
+                </span>
+              </button>
+
+              <!-- Navigation Menu -->
+              <div
+                id="navigationMenu"
+                class="hidden absolute left-0 mt-2 w-72 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-4 z-50"
+              >
+                <div class="space-y-4">
+                  <!-- Book Select -->
+                  <div class="space-y-2">
+                    <label
+                      for="bookSelect"
+                      class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                      >Buch</label
+                    >
+                    <div class="relative">
+                      <select
+                        id="bookSelect"
+                        disabled
+                        class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                      >
+                        <option value="left-ginza">Linker Ginza</option>
+                      </select>
+                      <div
+                        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Part Select -->
+                  <div class="space-y-2">
+                    <label
+                      for="partSelect"
+                      class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                      >Teil</label
+                    >
+                    <div class="relative">
+                      <select
+                        id="partSelect"
+                        class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                      >
+                        <option value="">Teil wählen</option>
+                      </select>
+                      <div
+                        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Chapter Select -->
+                  <div class="space-y-2">
+                    <label
+                      for="chapterSelect"
+                      class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                      >Stück</label
+                    >
+                    <div class="relative">
+                      <select
+                        id="chapterSelect"
+                        class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                      >
+                        <option value="">Stück wählen</option>
+                      </select>
+                      <div
+                        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Page Select -->
+                  <div class="space-y-2">
+                    <label
+                      for="pageSelect"
+                      class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                      >Seite</label
+                    >
+                    <div class="relative">
+                      <select
+                        id="pageSelect"
+                        class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                      >
+                        <option value="">Seite wählen</option>
+                      </select>
+                      <div
+                        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination -->
+            <div
+              class="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700 h-10"
+            >
+              <!-- First Page Button -->
+              <button
+                id="firstPageTop"
+                class="w-10 h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-l-lg flex items-center justify-center"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+
+              <!-- Previous Page Button -->
+              <button
+                id="prevPageTop"
+                class="w-10 h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+
+              <!-- First Divider -->
+              <div class="w-px h-4 bg-gray-300 dark:bg-gray-500 mx-0.5"></div>
+
+              <!-- Page Menu -->
+              <div class="w-16 relative">
+                <button
+                  id="pageMenuBtn"
+                  class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center cursor-pointer"
+                >
+                  <span
+                    class="text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap w-full"
+                  >
+                    <span id="currentPageInfo">1</span>/<span id="totalPages"
+                      >137</span
+                    >
+                  </span>
+                </button>
+                <!-- Page Selection Menu -->
+                <div
+                  id="pageMenu"
+                  class="hidden absolute left-1/2 -translate-x-1/2 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3 z-50"
+                >
+                  <div class="text-sm font-medium mb-2">Seite auswählen</div>
+                  <div class="relative">
+                    <input
+                      type="number"
+                      id="pageSearch"
+                      class="w-full h-10 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-400 focus:border-transparent px-3 text-sm"
+                      placeholder="Seitenzahl ..."
+                    />
+                    <div
+                      id="pageOptions"
+                      class="mt-2 max-h-60 overflow-y-auto space-y-1"
+                    >
+                      <!-- Page options will be populated here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Divider -->
+              <div class="w-px h-4 bg-gray-300 dark:bg-gray-500 mx-0.5"></div>
+
+              <!-- Next Page Button -->
+              <button
+                id="nextPageTop"
+                class="w-10 h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center cursor-pointer"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+
+              <!-- Last Page Button -->
+              <button
+                id="lastPageTop"
+                class="w-10 h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-r-lg flex items-center justify-center cursor-pointer"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right group - View Controls -->
+          <div class="flex flex-row justify-between items-center gap-2">
+            <!-- Font Size -->
+            <div
+              class="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700 h-10 shrink-0"
+            >
+              <button
+                id="decreaseFont"
+                class="group relative p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-l w-10 cursor-pointer"
+              >
+                A-
+                <span
+                  class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100"
+                >
+                  Schrift<br />verkleinern
+                </span>
+              </button>
+              <div class="w-px h-4 bg-gray-300 dark:bg-gray-500 mx-0.5"></div>
+              <button
+                id="increaseFont"
+                class="group relative p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-r w-10 cursor-pointer"
+              >
+                A+
+                <span
+                  class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100"
+                >
+                  Schrift<br />vergrößern
+                </span>
+              </button>
+            </div>
+
+            <!-- Column Toggles and Order -->
+            <div
+              id="columnControls"
+              class="flex items-center bg-gray-100 dark:bg-gray-700 rounded-lg h-10 relative"
+            >
+              <!-- Toggle Menu Button (visible only on small screens) -->
+              <button
+                id="toggleMenuBtn"
+                class="cursor-pointer group relative xl:hidden w-10 h-10 p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"
+                  />
+                </svg>
+                <span
+                  class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100"
+                >
+                  Ansicht<br />anpassen
+                </span>
+              </button>
+
+              <!-- Toggle Menu Content -->
+              <div
+                id="toggleMenu"
+                class="hidden absolute xl:hidden right-0 mt-2 w-40 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3 z-50"
+                style="top: 100%"
+              >
+                <div class="text-sm font-medium mb-2">Ansicht anpassen</div>
+                <div class="space-y-3">
+                  <!-- Mandaic Toggle -->
+                  <label
+                    class="flex items-center justify-between cursor-pointer"
+                  >
+                    <span class="text-sm text-gray-700 dark:text-gray-300"
+                      >Mandäisch</span
+                    >
+                    <div class="relative">
+                      <input
+                        type="checkbox"
+                        id="toggleMandaic-mobile"
+                        class="sr-only peer"
+                        checked
+                      />
+                      <div
+                        class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                      ></div>
+                    </div>
+                  </label>
+
+                  <!-- Transliteration Toggle -->
+                  <label
+                    class="flex items-center justify-between cursor-pointer"
+                  >
+                    <span class="text-sm text-gray-700 dark:text-gray-300"
+                      >Transliteration</span
+                    >
+                    <div class="relative">
+                      <input
+                        type="checkbox"
+                        id="toggleTransliteration-mobile"
+                        class="sr-only peer"
+                        checked
+                      />
+                      <div
+                        class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                      ></div>
+                    </div>
+                  </label>
+
+                  <!-- Translation Toggle -->
+                  <label
+                    class="flex items-center justify-between cursor-pointer"
+                  >
+                    <span class="text-sm text-gray-700 dark:text-gray-300"
+                      >Übersetzung</span
+                    >
+                    <div class="relative">
+                      <input
+                        type="checkbox"
+                        id="toggleTranslation-mobile"
+                        class="sr-only peer"
+                        checked
+                      />
+                      <div
+                        class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                      ></div>
+                    </div>
+                  </label>
+
+                  <!-- Variants Toggle -->
+                  <label
+                    class="flex items-center justify-between cursor-pointer"
+                  >
+                    <span class="text-sm text-gray-700 dark:text-gray-300"
+                      >Varianten</span
+                    >
+                    <div class="relative">
+                      <input
+                        type="checkbox"
+                        id="toggleVariants-mobile"
+                        class="sr-only peer"
+                        checked
+                      />
+                      <div
+                        class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                      ></div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Toggle Group (visible only on large screens) -->
+              <div
+                class="hidden xl:flex flex-col sm:flex-row gap-2 sm:space-x-4 w-full sm:w-auto pl-3 pr-2"
+              >
+                <!-- Mandaic Toggle -->
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <div class="relative">
+                    <input
+                      type="checkbox"
+                      id="toggleMandaic-desktop"
+                      class="sr-only peer"
+                      checked
+                    />
+                    <div
+                      class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                    ></div>
+                  </div>
+                  <span class="text-sm whitespace-nowrap">Mandäisch</span>
+                </label>
+
+                <!-- Transliteration Toggle -->
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <div class="relative">
+                    <input
+                      type="checkbox"
+                      id="toggleTransliteration-desktop"
+                      class="sr-only peer"
+                      checked
+                    />
+                    <div
+                      class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                    ></div>
+                  </div>
+                  <span class="text-sm whitespace-nowrap">Transliteration</span>
+                </label>
+
+                <!-- Translation Toggle -->
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <div class="relative">
+                    <input
+                      type="checkbox"
+                      id="toggleTranslation-desktop"
+                      class="sr-only peer"
+                      checked
+                    />
+                    <div
+                      class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                    ></div>
+                  </div>
+                  <span class="text-sm whitespace-nowrap">Übersetzung</span>
+                </label>
+
+                <!-- Variants Toggle -->
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <div class="relative">
+                    <input
+                      type="checkbox"
+                      id="toggleVariants-desktop"
+                      class="sr-only peer"
+                      checked
+                    />
+                    <div
+                      class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                    ></div>
+                  </div>
+                  <span class="text-sm whitespace-nowrap">Varianten</span>
+                </label>
+              </div>
+
+              <div class="flex flex-row items-center">
+                <!-- Column Order Button -->
+                <div class="w-px h-4 bg-gray-300 dark:bg-gray-500 mx-0.5"></div>
+                <div class="w-10 h-10 relative">
+                  <button
+                    id="columnOrderBtn"
+                    class="group relative w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center cursor-pointer"
+                    aria-label="Toggle column order"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 448 512"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"
+                      />
+                    </svg>
+                    <span
+                      class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100 z-500"
+                    >
+                      Spaltenreihenfolge<br />anpassen
+                    </span>
+                  </button>
+
+                  <!-- Column Order Menu -->
+                  <div
+                    id="columnOrderMenu"
+                    class="hidden absolute right-0 mt-2 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3 z-50"
+                  >
+                    <div class="text-sm font-medium mb-2 ml-1">
+                      Spaltenreihenfolge anpassen
+                    </div>
+                    <div
+                      id="columnOrderList"
+                      class="flex items-center gap-2 overflow-x-auto"
+                    >
+                      <!-- Column items will be inserted here -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-px h-4 bg-gray-300 dark:bg-gray-500 mx-0.5"></div>
+
+                <!-- Witness Menu Button -->
+                <div class="w-10 h-10 relative">
+                  <button
+                    id="witnessMenuBtn"
+                    class="group relative w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center cursor-pointer"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 80l0 48c0 17.7 14.3 32 32 32l16 0 48 0 0-80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48l0 304c0 35.3 28.7 64 64 64s64-28.7 64-64l0-5.3c0-32.4 26.3-58.7 58.7-58.7L480 320l0-192c0-53-43-96-96-96L112 32zM464 480c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16l-245.3 0c-14.7 0-26.7 11.9-26.7 26.7l0 5.3c0 53-43 96-96 96l176 0 96 0z"
+                      />
+                    </svg>
+                    <span
+                      class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-all duration-200 pointer-events-none whitespace-nowrap opacity-0 group-hover:opacity-100 z-500"
+                    >
+                      Textzeugen<br />hinzufügen
+                    </span>
+                  </button>
+
+                  <!-- Witness Menu -->
+                  <div
+                    id="witnessMenu"
+                    class="hidden absolute right-0 mt-2 w-96 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3 z-50"
+                  >
+                    <div class="text-sm font-medium mb-2">
+                      Textzeugen hinzufügen
+                    </div>
+                    <div class="flex items-center gap-2 mb-3">
+                      <div class="relative">
+                        <select
+                          id="witnessSelect"
+                          class="h-10 w-full rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8"
+                        >
+                          <option value="">Textzeuge auswählen ...</option>
+                        </select>
+                        <div
+                          class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                        >
+                          <svg
+                            class="h-4 w-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M19 9l-7 7-7-7"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <button
+                        id="addWitnessBtn"
+                        class="p-1.5 text-blue-600 hover:text-blue-700 dark:text-blue-400 cursor-pointer"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      id="activeWitnesses"
+                      class="space-y-2"
+                    >
+                      <!-- Active witnesses will be listed here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="flex">
+      <!-- Main Content Column -->
+      <div class="flex-1 px-6 py-6">
+        <div class="flex items-center mb-2">
+          <h2 class="text-lg font-medium text-gray-900 dark:text-white">
+            <span class="text-gray-500 dark:text-gray-400">Seite</span>
+            <span
+              id="currentPage"
+              class="ml-2 font-semibold"
+              >-</span
+            >
+          </h2>
+        </div>
+
+        <!-- Grid headers -->
+        <div
+          class="grid gap-2 sm:gap-4 mb-2"
+          style="grid-template-columns: 3rem 1fr 1fr 1fr"
+        >
+          <!-- Line number header -->
+          <div
+            class="text-gray-500 dark:text-gray-400 font-semibold text-center sm:text-left"
+          ></div>
+
+          <!-- Main column headers -->
+          <div
+            id="mandaicHeader"
+            class="text-gray-500 dark:text-gray-400 text-center sm:text-right"
+          >
+            Mandäisch
+          </div>
+          <div
+            id="transliterationHeader"
+            class="text-gray-500 dark:text-gray-400 text-center sm:text-left"
+          >
+            Transliteration
+          </div>
+          <div
+            id="translationHeader"
+            class="text-gray-500 dark:text-gray-400 text-center sm:text-left"
+          >
+            Übersetzung
+          </div>
+
+          <!-- Witness headers will be dynamically added here -->
+        </div>
+
+        <!-- Parallel content area -->
+        <div
+          id="parallelContent"
+          class="space-y-2 bg-white dark:bg-gray-800"
+        >
+          <!-- Content lines will be dynamically added here -->
+        </div>
+
+        <div class="w-full border-t border-gray-200 dark:border-gray-700 mt-2">
+          <!-- Button and pagination row - Flex column on small screens -->
+          <div
+            class="flex flex-col sm:flex-row justify-between items-center gap-4 mt-2 px-2"
+          >
+            <!-- Manuscript Info Button -->
+            <button
+              id="manuscriptInfoBtn"
+              class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors w-full sm:w-auto justify-center sm:justify-start cursor-pointer"
+            >
+              <svg
+                class="w-5 h-5 flex-shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span class="text-sm font-medium">Textzeugen</span>
+              <svg
+                id="manuscriptInfoArrow"
+                class="w-4 h-4 transform transition-transform flex-shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+
+            <!-- Pagination Controls - Full width on mobile -->
+            <div
+              class="flex items-center justify-center gap-2 w-full sm:w-auto"
+            >
+              <div class="flex items-center gap-1">
+                <button
+                  id="firstPage"
+                  class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hidden sm:block cursor-pointer"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+                    />
+                  </svg>
+                </button>
+                <button
+                  id="previousPage"
+                  class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 19l-7-7 7-7"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              <div class="flex items-center gap-1">
+                <div class="relative">
+                  <button
+                    id="pageMenuBtnBottom"
+                    class="flex items-center gap-1 px-4 py-2 h-10 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg cursor-pointer"
+                  >
+                    <span
+                      class="text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap"
+                    >
+                      Seite
+                      <span
+                        id="currentPageBottom"
+                        class="font-medium"
+                        >1</span
+                      >
+                      von
+                      <span
+                        id="totalPagesBottom"
+                        class="font-medium"
+                        >137</span
+                      >
+                    </span>
+                  </button>
+
+                  <!-- Page Selection Menu -->
+                  <div
+                    id="pageMenuBottom"
+                    class="hidden absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-48 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-3 z-50"
+                  >
+                    <div class="text-sm font-medium mb-2">Seite auswählen</div>
+                    <div class="relative">
+                      <input
+                        type="number"
+                        id="pageSearchBottom"
+                        class="w-full h-10 rounded-md border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-400 focus:border-transparent px-3 text-sm"
+                        placeholder="Seitenzahl ..."
+                      />
+                      <div
+                        id="pageOptionsBottom"
+                        class="mt-2 max-h-60 overflow-y-auto space-y-1 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-track]:rounded-full dark:[&::-webkit-scrollbar-track]:bg-gray-800 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full dark:[&::-webkit-scrollbar-thumb]:bg-gray-600"
+                      >
+                        <!-- Page options will be populated here -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-1">
+                <button
+                  id="nextPage"
+                  class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </button>
+                <button
+                  id="lastPage"
+                  class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hidden sm:block cursor-pointer"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Back to Top button - Hidden on small screens -->
+            <button
+              onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+              class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors cursor-pointer"
+            >
+              <span class="text-sm font-medium">Seitenanfang</span>
+              <svg
+                class="w-5 h-5 flex-shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 15l7-7 7 7"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <!-- Manuscript Info Content -->
+          <div
+            id="manuscriptInfoContent"
+            class="hidden mt-4"
+          >
+            <div class="px-4 sm:px-6 pb-6 space-y-6">
+              <!-- Manuscript Information -->
+              <div class="border-b border-gray-200 dark:border-gray-700 pb-4">
+                <h3
+                  class="text-lg font-medium text-gray-700 dark:text-gray-300 mb-3"
+                >
+                  Kollationsexemplar
+                </h3>
+                <div
+                  id="manuscriptGeneralInfo"
+                  class="grid grid-cols-1 md:grid-cols-2 gap-4"
+                >
+                  <!-- Manuscript info will be populated here -->
+                </div>
+              </div>
+
+              <!-- Witnesses List -->
+              <div>
+                <h3
+                  class="text-lg font-medium text-gray-700 dark:text-gray-300 mb-3"
+                >
+                  Alle Textzeugen
+                </h3>
+                <div
+                  id="witnessList"
+                  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+                >
+                  <!-- Witnesses will be populated here -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,362 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="register">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personenregister</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="ed_fsm_dwr_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Adam</name>
+                    </persName>
+                    <note>Adam, erster Mann (adam gabra qadmaia). An dieser Stelle wird Adam als
+                        erster Mann bezeichnet. Dieser Ausdruck wird unterschiedlich verwendet. Eine
+                        Stelle aus den sog. Mandäischen Liturgien bezeichnen ihn als „(der Mann),
+                        der älter ist als Wasser, Glanz, Licht und Herrlichkeit, der Mann, der mit
+                        seiner Stimme rief und mit seiner Rede sprach. Durch seine Stimme und seine
+                        Rede sprossen empor und entstanden Weinstöcke, und wurde das erste Leben in
+                        seiner Škīnā gefestigt“ (ML 3f.). Hier ist der erste Mann an der Entstehung
+                        und Entfaltung des Lichtreiches beteiligt. Wir haben hier mit
+                        ‚Urmenschspekulation‘ zu tun, der in der mandäischen Gnosis auch den Namen
+                        Adakas (aus adam kasia ‚verborgener Adam‘) trägt. Siehe auch die
+                        manichäische Entsprechung in den syrischen Quellen nāšā qaḏmājā. </note>
+                </person>
+                <person xml:id="ed_pjd_rks_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Iupin</name>
+                    </persName>
+                    <note>Iupin (MD 191) ist nur ein einziges Mal als Iupin eutra Gy 127, 20 belegt.
+                        Sonst erscheint er als Iupin Iupapin, was zu der Überlegung geführt hat, ihn
+                        auf den Engelsnamen Yāf¬yāfyā zurückzuführen und damit seinen jüdischen
+                        Ursprung zu identifizieren (s. Brandt 1889, 198, Anm. 1, belegt im Targum
+                        Jon. Deut. 34,6).</note>
+                </person>
+                <person xml:id="ed_i1b_l5s_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Šilmai</name>
+                    </persName>
+                    <note>Šilmai (MD 462) kommt meist in Begleitung von Nidbai vor. Die beiden sind
+                        die zwei Uthras, die den Jordan hüten. Sie sind wahrscheinlich dem
+                        westaramäischen Substrat der mandäischen Religion zuzurechnen (s. Jb XX und
+                        Rudolph 1960, 60). Sie werden oft in den Taufgebeten angepriesen, ein
+                        Beweis, dass sie zu der ältesten Schicht der mandäischen Religion gehören.
+                        Šilmai ist hier der Sohn von Shaq, dem Großen. Er wird hier als
+                        Schatzmeister ganzibra bezeichnet. </note>
+                </person>
+                <person xml:id="ed_uzm_svs_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Uthra</name>
+                    </persName>
+                    <note>Uthra eutra (pl. eutria), wörtlich ‚Reichtum‘, ist die allgemeine
+                        Bezeichnung für ein Wesen der Lichtwelt.</note>
+                </person>
+                <person xml:id="ed_gm3_3ws_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Ayar Ziua</name>
+                    </persName>
+                    <note>Ayar Ziua aiar ziua, wörtlich ‚Äther des Glanzes‘ ist ein der Urprinzipien
+                        nach der mandäsichen Schöpfungslehre. </note>
+                </person>
+                <person xml:id="ed_odh_s3t_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Ptahil</name>
+                    </persName>
+                    <note>Ptahil, aus ptah – ‚er hat geöffnet, erschaffen (Wurzel PTH)‘ und dem
+                        theophoren Element ʼil, ist der Name des Demiurgen nach einigen Traditionen
+                        der sonst uneinheitlichen mandäischen Kosmologie. Er ist der Sohn des
+                        Abatur. Er ist ein Lichtwesen, deshalb die Bezeichnung Ptahil Eutra. Sein
+                        wichtiges Werk ist die Erschaffung (Verdichtung) der irdischen Welt
+                        (Tibil).</note>
+                </person>
+                <person xml:id="ed_zkw_tp5_dgc" role="mythological">
+                    <persName type="reg">
+                        <name>Haua</name>
+                    </persName>
+                    <note>Haua ist die mandäische Wiedergabe der alttestamentlichen Eva, die nicht
+                        nur in der mandäischen Mythologie eine Rolle spielt, sondern auch als
+                        Taufname verwendet wird.</note>
+                </person>
+                <person xml:id="ed_zng_5jb_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Ruha</name>
+                    </persName>
+                    <note>Ruha als die Personifizierung und Hypostasierung des menschlichen Geistes
+                        (ruha) regiert zusammen mit dem entsprechenden König das Finsternisreich und
+                        ist nach einigen Traditionen sogar die Mutter der Planeten und der
+                        Tierkreiszeichen.</note>
+                </person>
+                <person xml:id="ed_gwk_tqh_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Abatur</name>
+                    </persName>
+                    <note>Abatur (abatur) ist eine mythologische Gestalt, die sich an der Grenze zum
+                        Lichtreich befindet, wo er die Aufgabe übernimmt, die Sünden der Seele zu
+                        ermessen. Er ist der ‚Waagemann‘, der die Seelen nach dem Tod richtet. Der
+                        Name ist iranischen Ursprungs und geht zurück auf pers. abā(g)– ‚mit‘ und
+                        *turā– ‚Waage‘, also ‚der mit der Waage‘ (vgl. Colpe 1986, 227).</note>
+                </person>
+                <person xml:id="ed_qgj_4xh_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Nbaz</name>
+                    </persName>
+                    <note>Nbaz ist der Anführer des nächsten Wachthauses. Er kommt nur an dieser
+                        Stelle und noch einmal im Rechten Ginza (Gy 208,3) vor: maṭarta ḏnbaz haila
+                        ḏmarẖ ḏhšuka ‚das Wachthaus des Nbaz-Haila, des Herrn der Finsternis‘.
+                        Die Etymologie von nbaz ist unklar, MD 287 eine Wz. BZA ‚to divide, split?‘.
+                        Möglich wäre eine Ableitung von der Wz. BZZ ‚plündern‘ (MD 58, s. dort baz
+                        als Eigenname eines Dämons).</note>
+                </person>
+                <person xml:id="ed_izm_2f3_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Nbu</name>
+                    </persName>
+                    <note>Nbu entspricht dem babylonischen Gott Nabu und ist die Bezeichnung
+                        des Planeten Merkur. Nbu wird von den Mandäern in Verbindung mit Christus
+                        und
+                        der Weisheit gebracht (MD 287).</note>
+                </person>
+                <person xml:id="ed_kvc_kl3_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>ruha ḏqudša</name>
+                    </persName>
+                    <note>Im selben semantischen Zusammenhang der Wurzel QDŠ ist auch der
+                        mandäische Name für den Heiligen Geist zu sehen: Ruha ḏ-Qudša, wobei Ruha
+                        in
+                        der mandäischen Mythologie ein Wesen des Finsternisreiches ist.</note>
+                </person>
+                <person xml:id="ed_pg5_dp3_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Aiar gupna</name>
+                    </persName>
+                    <note>Aiar Gupna, wört. ‚Äther Weinstock‘ ist die Bezeichnung eines
+                        Lichtwesens. Wie bereits erwähnt ist aiar ‚der Äther‘ ein Urelement des
+                        Lichtreiches, während der Weinstock in der mandäischen Bilderrede das
+                        Lebensbaum
+                        bzw. allgemein die Lichtwelt symbolisiert (Rudolph 1961, 44f.).</note>
+                </person>
+                <person xml:id="ed_rlr_jp3_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Piriauis</name>
+                    </persName>
+                    <note>Piriauis, mit den Varianten Piriauiš, Biriauis, und Biriauiš, ist ein
+                        Beiname des Jordans und ein Lichtwesen.</note>
+                </person>
+                <person xml:id="ed_dw3_1p4_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Adam kasia</name>
+                    </persName>
+                    <note>Adam kasia ‚der verborgene oder mystische Adam‘ ist nach der
+                        mandäischen Anthropologie eine Bezeichnung für den Urmenschen bzw. den
+                        ersten
+                        Menschen. In den mandäischen Makrokosmos-Mikrokosmos-Spekulationen existiert
+                        Adam kasia – der auch in der abgekürzte Form Adakas vorkommt – vor dem
+                        irdischen
+                        Adam, Adam pagria ‚körperlicher Adam. Nach dem Baumuster von Adam kasia
+                        bekommt
+                        die Seele nach dem Tod einen spirituellen Körper, der mit Hilfe der auf der
+                        Erde
+                        praktizierten Aufstiegszeremonie (masiqta) zusammengesetzt wird (Drower, SA,
+                        21ff.).</note>
+                </person>
+                <person xml:id="ed_djg_bq4_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Jorabba</name>
+                    </persName>
+                    <note>Jorabba iuraba (Jō-Rabbā ‚der große Jō‘) ist die Bezeichnung des
+                        alttestamentlichen Gottes, der in der mandäischen Mythologie negative Züge
+                        aufweist (Rudolph 1965, 168ff.). Iuraba ist die Plene-Schreibung von
+                        häufiger
+                        vorkommendem iurba (MD 191). Er wird unter anderen als Wächter eines
+                        Wachthauses
+                        dargestellt, s. Gy 186, 21, 187, 12. Das mandäische Iu-/Jō-/ gibt die durch
+                        Kontraktion entstandene Kurzform des alttestamentlichen Tetragramms JHWH Jô
+                        (&lt; jəhô &lt; jāhū) wieder.</note>
+                </person>
+                <person xml:id="ed_zgc_fw4_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>tlata eutria</name>
+                    </persName>
+                    <note>Bei den drei Uthras tlata eutria handelt es sich um Hibil, Šitil und
+                        Anoš.</note>
+                </person>
+                <person xml:id="ed_igw_py4_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Manda ḏ-Hiia</name>
+                    </persName>
+                    <note>Manda ḏ-Hiia, wörtlich ‚Erkenntnis des Lebens‘, ist nach der
+                        mandäischen Theogonie eine Schöpfung oder Emanation des ersten Lebens und
+                        fungiert als Bote des Lebens (s. Rudolph 1965, 52 ff. und 316.).</note>
+                </person>
+                <person xml:id="ed_sdj_mtp_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Hibil Ziua</name>
+                    </persName>
+                    <note>Hibil Ziua, ‚Glanz-Abel‘ kommt in einigen mandäischen Werken als
+                        Schöpferwesen vor. Er hat die ‚Werke‘ (i.e. die Riten) und auch die Tibil
+                        (Erde)
+                        geschaffen (Rudolph 1965, 201f.).</note>
+                </person>
+                <person xml:id="ed_ntb_vtp_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Estira</name>
+                    </persName>
+                    <note>Estirata, sg. estira/estra, ist die mandäische Wiedergabe der
+                        akkadischen Göttin Ištar, die in der mandäsichen Überlieferung dämonisiert
+                        und
+                        in Verbindung mit dem Finsternisreich gebracht wurde.</note>
+                </person>
+                <person xml:id="ed_r52_q5p_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Jošamin </name>
+                    </persName>
+                    <note>Jošamin / iušamin gehört zu den Namen höherer Wesen, die im
+                        Mandäischen mit Iu [Jō &lt; hebr. jô] zusammengesetzt sind. Nach Lidzbarski
+                        ist
+                        der Name יושאמין direkt an die Stelle des aramäischen בעלשמין getreten. Er
+                        sei
+                        in judenheidnischen Kreisen entstanden, welche das verpönte בעל durch יו
+                        ersetzen wollten (Jb XXIII. Vgl. auch Niehr 2003, 303-305). Nach Kurt
+                        Rudolph
+                        lassen sich in den bekanntlich sehr widersprüchlichen mandäischen
+                        Traditionen
+                        drei Stadien bei den Jošamin-Darstellungen unterscheiden (Rudolph 1965,
+                        103-121): – Jošamin als Umschreibung des ‚Zweiten Lebens‘, verbunden mit
+                        Abathur
+                        und Ptahil, beteiligt sich an der Kosmogonie. – Jošamin wird als
+                        Weltherrscher
+                        bzw. ‚Hüter der Tibil‘ dargestellt, wobei man noch Züge des vormandäischen
+                        ‚Herrn des Himmels‘ (*jəho-šāmajim) vermuten könnte. – Iušamin als
+                        aufständischer Uthra, der sich unter Aufnahme jezidischen Einflusses (dazu
+                        Furlani 1948, passim) und von Elementen beider erwähnten Traditionen zum
+                        Prototyp des fahrlässigen Priesters entwickelt.</note>
+                </person>
+                <person xml:id="ed_bcv_33w_2gc" role="mythological">
+                    <persName type="reg">
+                        <name>Daium</name>
+                    </persName>
+                    <note>Daium ist ein anderer Name von Ruha.</note>
+                </person>
+                <person xml:id="ed_tmx_h2f_ggc" role="mythological">
+                    <persName type="reg">
+                        <name>Brhiia</name>
+                    </persName>
+                    <note>Brhiia Bar-Haijē bedeutet ‚Sohn des Lebens‘.</note>
+                </person>
+                <person xml:id="ed_chm_lls_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Anoš</name>
+                    </persName>
+                    <persName type="alt" subtype="pseudonym">
+                        <name>Anuš</name>
+                    </persName>
+                    <persName type="alt" subtype="pseudonym">
+                        <name>Enuš</name>
+                    </persName>
+                    <note>s. <persName key="ed_rp3_5ks_hdc">Hibil und
+                            Šitil</persName></note>
+                </person>
+                <person xml:id="ed_it4_vy5_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Iupin</name>
+                    </persName>
+                    <note>Iupin (MD 191) ist nur ein einziges Mal als Iupin eutra Gy 127, 20 belegt.
+                        Sonst erscheint er als Iupin Iupapin, was zu der Überlegung geführt hat, ihn
+                        auf den Engelsnamen Yāfyāfyā zurückzuführen und damit seinen jüdischen
+                        Ursprung zu identifizieren.</note>
+                </person>
+                <person xml:id="ed_hv4_tbv_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Haua</name>
+                    </persName>
+                    <note>Haua ist die mandäische Wiedergabe der alttestamentlichen Eva, die nicht
+                        nur in der mandäischen Mythologie eine Rolle spielt, sondern auch als
+                        Taufname verwendet wird.</note>
+                </person>
+                <person xml:id="ed_fzf_b1v_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Sam</name>
+                    </persName>
+                    <note>Sam oder Sam Rba (Sam der Große) (MD 312) ist ein Uthra, ein Lichtwesen,
+                        der unter anderen im Johannesbuch 219, 8 erwähnt wird. Sam wird von der
+                        Wurzel SUM/SIM (MD 321, to put, place, lay (upon), set upon, put forth,
+                        apply to) abgeleitet und ist in seiner Form ein Perfekt 3.Sg. m. mit der
+                        Bedeutung „er hat gesetzt, gestellt“.</note>
+                </person>
+                <person xml:id="ed_hbq_g1v_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Šilmai</name>
+                    </persName>
+                    <note>Šilmai (MD 462) kommt meist in Begleitung von Nidbai vor. Die beiden sind
+                        die zwei Uthras, die den Jordan hüten. Sie sind wahrscheinlich dem
+                        westaramäischen Substrat der mandäischen Religion zuzurechnen. Sie werden
+                        oft in den Taufgebeten angepriesen, ein Beweis, dass sie zu der ältesten
+                        Schicht der mandäischen Religion gehören. Šilmai ist hier der Sohn von Shaq,
+                        dem Großen. Er wird hier als Schatzmeister ganzibra bezeichnet. </note>
+                </person>
+                <person xml:id="ed_unn_w1v_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Ptahil</name>
+                    </persName>
+                    <note>Ptahil, aus ptah – ‚er hat geöffnet, erschaffen (Wurzel PTH)‘ mit dem
+                        theophoren Element ʼil, ist der Name des Demiurgen nach einigen Traditionen
+                        der sonst uneinheitlichen mandäischen Kosmologie. Er ist der Sohn des
+                        Abatur. Er ist ein Lichtwesen, deshalb die Bezeichnung Ptahil Eutra. Sein
+                        wichtiges Werk ist die Erschaffung (Verdichtung) der irdischen Welt ( <?oxy_comment_start author="Merlin" timestamp="20241108T092319+0100" comment="Verweis auf Sachregister"?>Tibil <?oxy_comment_end?>
+                        ).</note>
+                </person>
+                <person xml:id="ed_gc1_31v_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Nidbai</name>
+                    </persName>
+                    <note>s. <persName key="ed_hbq_g1v_hdc">Šilmai</persName></note>
+                </person>
+                <person xml:id="ed_urg_mqr_3dc" role="mythological">
+                    <persName type="reg">
+                        <name>Mara d-Rabuta</name>
+                    </persName>
+                    <note>Mara d-Rabuta ‚Herr der Größe‘ ist nach einigen späteren Traditionen der
+                        mandäischen Mythologie die Bezeichnung für ein wichtiges Wesen der Lichtwelt
+                        und stellt in der Ritualliteratur den Prototyp des zelebrierenden Priesters
+                        dar. Hervorzuheben ist, dass er hier als ab ‚Vater‘ bezeichnet wird.</note>
+                </person>
+                <person xml:id="ed_kvy_3ks_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Ṣaureil</name>
+                    </persName>
+                    <note>Ṣaureil ist bei den Mandäern der Todesengel. Seine Funktion wird an einer
+                        Stelle aus den Mandäischen Liturgien deutlich gemacht: u-atia Ṣaureil šaruia
+                        ḏ-šaria ruha u-nišimta mn pagra ‚Der Löser Ṣaureil kommt, der Geist und
+                        Seele vom Körper löst‘ (ML 80,8). Bei Ṣaureil handelt es sich um die
+                        Wiedergabe des hebräischen Eigennamens Ṣūrīʿēl – ‚mein Fels ist Gott‘ (Num
+                        3,35).</note>
+                </person>
+                <person xml:id="ed_sqw_pks_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Qmamir-Ziua</name>
+                    </persName>
+                    <note>"Qmamir der Glanz“ ist neben Ṣaureil auch ein Seelengeleiter.</note>
+                </person>
+                <person xml:id="ed_rp3_5ks_hdc" role="mythological">
+                    <persName type="reg">
+                        <name>Hibil und Šitil</name>
+                    </persName>
+                    <note>Hibil und Šitil sind die mandäischen Entsprechungen für die biblischen
+                        Abel und Seth während Anoš / Enuš / Anuš eutra dem Enōš (= Mensch,
+                        Menschheit), dem Sohn von Seth und Enkel Adams, (vgl. Gen 5.6f.) entspricht.
+                        Er übernimmt die Rolle des Gesandten und des Vermittlers der Gnosis.</note>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

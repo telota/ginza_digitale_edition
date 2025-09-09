@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: >-
+  Ginza – Die "Heilige Schrift" der Mandäer: Digitale
+  Edition
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
+authors:
+  - family-names: Westphal
+    given-names: Tim
+    orcid: 'https://orcid.org/0009-0000-8580-4558'
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+  - given-names: Martin
+    family-names: Fechner
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+    orcid: 'https://orcid.org/0000-0001-9233-0653'
+  - given-names: Ruth
+    family-names: Sander
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+    orcid: 'https://orcid.org/0009-0008-3678-9070'
+  - given-names: Bogdan
+    family-names: Burtea
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+  - given-names: Christoph
+    family-names: Markschies
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+  - given-names: Eleonora
+    family-names: Treml
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+  - given-names: Merlin
+    family-names: Reichel
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+repository-code: 'https://github.com/telota/ginza_digitale_edition'
+url: 'https://ginza.bbaw.de'
+abstract: >-
+  A minimalist, vanilla JavaScript single-page application
+  for viewing a critical digital edition of the Ginza, a
+  central Mandaean religious text. The application provides
+  parallel display of the critical edition, German
+  translation, and critical apparatus based on 12
+  manuscripts and one printed edition. Features include
+  automatic conversion between Mandaean script and scholarly
+  transliteration, integrated glossary functionality, and
+  full-text search capabilities. Built without external
+  dependencies for long-term archival stability and minimal
+  maintenance requirements.
+keywords:
+  - Ginza
+  - Mandaeism
+  - Mandaic
+  - digital scholarly edition
+  - static website
+  - tei-xml
+license: MIT
+version: 1.0.0
+date-released: '2025-09-09'

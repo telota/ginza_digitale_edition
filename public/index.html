@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html
+  lang="de"
+  class="h-full bg-gray-100"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Die digitale Edition des Ginza Rabbā"
+    />
+    <title>Ginzā Rabbā - Die heilige Schrift</title>
+    <link
+      href="styles/main.min.css"
+      rel="stylesheet"
+    />
+    <!-- For development -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script>
+      tailwind.config = {
+        darkMode: "class",
+      };
+    </script> -->
+  </head>
+
+  <body
+    class="min-h-full bg-stone-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans"
+  >
+    <div class="min-h-screen flex flex-col bg-stone-100 dark:bg-gray-900">
+      <!-- Navigation -->
+      <nav
+        class="bg-white dark:bg-gray-800 w-full mx-auto px-2 sm:px-2 lg:px-12 xl:px-20 2xl:px-36 py-2"
+      >
+        <div
+          class="flex flex-row md:flex-col lg:flex-row justify-between items-center gap-4"
+        >
+          <!-- Logo Section -->
+          <div class="flex items-center">
+            <a
+              href="#"
+              class="flex items-center sm:gap-1 md:gap-2 text-gray-800 dark:text-gray-200"
+            >
+              <img
+                src="assets/images/Darfash_-_Mandaean_cross.svg"
+                alt="Mandaeic Logo"
+                class="w-12 h-12 flex-shrink-0 transition-transform duration-200 dark:invert hover:scale-105"
+              />
+              <div
+                class="flex flex-col md:flex-row items-start sm:items-center"
+              >
+                <p class="text-2xl font-semibold whitespace-nowrap mr-2">
+                  Ginzā Rabbā
+                </p>
+                <p
+                  class="mandaic-text font-semibold text-2xl sm:translate-y-1.5 whitespace-nowrap"
+                  dir="rtl"
+                >
+                  ࡂࡉࡍࡆࡀ ࡓࡁࡀ
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Navigation Links -->
+          <div
+            class="w-full flex flex-wrap items-center justify-end lg:justify-end gap-y-0 px-2 py-1"
+          >
+            <!-- Mobile Navigation Container -->
+            <div class="md:hidden lg:block xl:hidden relative">
+              <!-- Hamburger Button -->
+              <button
+                class="cursor-pointer w-8 h-8 flex items-center justify-center rounded-md hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 transition-all duration-300 focus:outline-none -translate-y-1"
+                aria-label="Open Menu"
+              >
+                <svg
+                  class="w-6 h-6 text-gray-600 dark:text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+
+              <!-- Mobile Menu Dropdown -->
+              <div
+                id="mobile-menu"
+                class="hidden absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50"
+              >
+                <a
+                  href="/#about?section=intro"
+                  data-navigate="about"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Über die Edition
+                </a>
+
+                <a
+                  href="/#docs"
+                  data-navigate="docs"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Edition
+                </a>
+
+                <a
+                  href="/#notes"
+                  data-navigate="notes"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Anmerkungen
+                </a>
+
+                <a
+                  href="/#glossary"
+                  data-navigate="glossary"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Glossar
+                </a>
+
+                <a
+                  href="/#search"
+                  data-navigate="search"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Suche
+                </a>
+
+                <a
+                  href="/#literature"
+                  data-navigate="literature"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Bibliographie
+                </a>
+
+                <a
+                  href="/#manual?section=edition"
+                  data-navigate="manual"
+                  class="block px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Hilfe
+                </a>
+              </div>
+            </div>
+            <!-- Full Nav Links Container -->
+            <div
+              class="hidden md:flex lg:hidden xl:flex flex-1 flex-wrap items-center justify-center lg:justify-end gap-x-3 gap-y-0"
+            >
+              <a
+                href="/#about?section=intro"
+                data-navigate="about"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Über die Edition
+                </span>
+              </a>
+
+              <a
+                href="/#docs"
+                data-navigate="docs"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Edition
+                </span>
+              </a>
+
+              <a
+                href="/#notes"
+                data-navigate="notes"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Anmerkungen
+                </span>
+              </a>
+
+              <a
+                href="/#glossary"
+                data-navigate="glossary"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Glossar
+                </span>
+              </a>
+
+              <a
+                href="/#search"
+                data-navigate="search"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Suche
+                </span>
+              </a>
+
+              <a
+                href="/#literature"
+                data-navigate="literature"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Bibliographie
+                </span>
+              </a>
+
+              <a
+                href="/#manual?section=edition"
+                data-navigate="manual"
+                class="nav-link font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-lg"
+              >
+                <span
+                  class="block border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600"
+                >
+                  Hilfe
+                </span>
+              </a>
+            </div>
+
+            <!-- Dark Mode Button Container -->
+            <div class="flex items-center justify-center -translate-y-1 ml-3">
+              <button
+                id="dark-mode-toggle"
+                class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 cursor-pointer"
+                aria-label="Toggle Dark Mode"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Content -->
+      <main class="flex flex-grow flex-col bg-stone-100 dark:bg-gray-900">
+        <div
+          class="flex flex-grow flex-col w-full mx-auto px-2 sm:px-2 lg:px-12 xl:px-20 2xl:px-36"
+        >
+          <div
+            id="content"
+            class="flex-grow mt-2 mb-2 bg-white dark:bg-gray-800 rounded-lg shadow-md px-2 py-3 overflow-hidden relative"
+          >
+            <!-- Spinner -->
+            <div
+              id="loadingSpinner"
+              class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-800 z-40"
+            >
+              <div
+                class="animate-spin rounded-full h-16 w-16 border-4 border-gray-300 dark:border-gray-600 border-t-slate-600 dark:border-t-slate-400"
+              ></div>
+            </div>
+            <noscript>
+              <div class="p-4 text-center">
+                <p class="text-xl text-red-600 dark:text-red-400 font-semibold">
+                  JavaScript ist deaktiviert
+                </p>
+                <p class="mt-2 text-gray-700 dark:text-gray-300">
+                  Diese Webanwendung benötigt JavaScript, um korrekt zu
+                  funktionieren. Bitte aktivieren Sie JavaScript in Ihren
+                  Browsereinstellungen.
+                </p>
+              </div>
+            </noscript>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-white dark:bg-gray-800 mt-auto">
+        <div
+          class="w-full mx-auto py-3 px-2 sm:px-2 lg:px-12 xl:px-20 2xl:px-36"
+        >
+          <div
+            class="flex flex-col md:flex-row justify-between items-center text-sm gap-6"
+          >
+            <!-- Left Section: Text Content -->
+            <div
+              class="text-xs text-gray-700 dark:text-gray-300 space-y-2 max-w-3xl px-2"
+            >
+              <div>
+                <p>
+                  Herausgegeben von der
+                  <a
+                    href="https://www.bbaw.de"
+                    class="text-blue-600 dark:text-blue-400 underline hover:no-underline inline-block"
+                  >
+                    <span class="lg:flex hidden"
+                      >Berlin-Brandenburgischen Akademie der
+                      Wissenschaften</span
+                    >
+                    <span class="lg:hidden">BBAW</span>
+                  </a>
+                </p>
+
+                <p class="break-words">
+                  Dieses Webangebot wird bereitgestellt von
+                  <a
+                    href="https://www.bbaw.de/bbaw-digital/telota"
+                    class="text-blue-600 dark:text-blue-400 underline hover:no-underline inline-block"
+                  >
+                    TELOTA
+                  </a>
+                </p>
+
+                <p class="break-words">
+                  Alle Seiteninhalte unterliegen der
+                  <a
+                    href="https://creativecommons.org/licenses/by/4.0/deed.de"
+                    class="text-blue-600 dark:text-blue-400 underline hover:no-underline inline-block"
+                  >
+                    Creative Commons Lizenz CC-BY 4.0
+                  </a>
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 pt-1">
+                <a
+                  href="/#dataprotection"
+                  class="text-blue-600 dark:text-blue-400 no-underline hover:underline"
+                >
+                  Datenschutz
+                </a>
+                <span class="text-gray-400">|</span>
+                <a
+                  href="/#imprint"
+                  class="text-blue-600 dark:text-blue-400 no-underline hover:underline"
+                >
+                  Impressum
+                </a>
+                <span class="text-gray-400">|</span>
+                <a
+                  href="mailto:telota@bbaw.de?subject=Ginza"
+                  class="text-blue-600 dark:text-blue-400 no-underline hover:underline"
+                >
+                  Kontakt
+                </a>
+              </div>
+            </div>
+
+            <!-- Center Section: Citation -->
+            <div
+              class="relative group mx-auto text-center md:text-right w-2/5 max-w-lg mb-2"
+            >
+              <div class="flex">
+                <button
+                  class="group relative text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer"
+                  onclick="
+                    const tooltip = this.querySelector('.tooltip');
+                    navigator.clipboard.writeText(document.getElementById('citation').textContent)
+                      .then(() => {
+                        tooltip.textContent = 'In Zwischenablage kopiert!';
+                        tooltip.classList.add('opacity-100');
+                        tooltip.classList.remove('opacity-0', 'hover:opacity-100');
+                        setTimeout(() => {
+                          // First make sure the tooltip is completely invisible
+                          tooltip.classList.remove('opacity-100');
+                          tooltip.classList.add('opacity-0', 'hover:opacity-100');
+                          
+                          // Wait for the opacity transition to complete before changing the text
+                          setTimeout(() => {
+                            tooltip.textContent = 'In die Zwischenablage kopieren';
+                          }, 200);
+                        }, 2000);
+                      });"
+                >
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                    />
+                  </svg>
+                  <span
+                    class="tooltip absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white bg-gray-900 rounded transition-opacity duration-200 pointer-events-none whitespace-nowrap opacity-0 hover:opacity-100"
+                  >
+                    In die Zwischenablage kopieren
+                  </span>
+                </button>
+                <div class="flex-grow"></div>
+                <h2
+                  class="font-semibold text-base text-gray-800 dark:text-gray-200 mb-1"
+                >
+                  Zitiervorschlag
+                </h2>
+              </div>
+              <div class="inline-block text-center md:text-right">
+                <p
+                  id="citation"
+                  class="text-xs leading-tight text-gray-700 dark:text-gray-400"
+                >
+                  Ginzā Rabbā [Digitale Edition]. Bearbeitet von Bogdan Burtea.
+                  Herausgegeben von der Berlin-Brandenburgische Akademie der
+                  Wissenschaften,
+                  <span class="whitespace-nowrap">Berlin 2025.</span>
+                  <span class="whitespace-nowrap">[https://ginza.bbaw.de]</span>
+                  <span class="whitespace-nowrap">(abgerufen am [Datum])</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Section: Logos -->
+            <div
+              class="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-1 px-2"
+            >
+              <!-- BBAW Logo -->
+              <a
+                href="https://www.bbaw.de"
+                class="flex-shrink-0 flex items-center -my-2"
+              >
+                <img
+                  src="assets/images/bbaw-logo.svg"
+                  alt="BBAW-Logo"
+                  class="h-10 md:h-16 w-auto max-w-[120px] md:max-w-[160px] object-contain footer-bbaw-logo"
+                />
+              </a>
+              <!-- DFG Logo -->
+              <a
+                href="https://www.dfg.de"
+                class="flex-shrink-0 flex items-center -my-3 md:mt-1"
+              >
+                <img
+                  src="assets/images/dfg_logo_schriftzug_blau.gif"
+                  alt="DFG-Logo"
+                  class="h-12 md:h-16 w-auto max-w-[120px] md:max-w-[160px] object-contain footer-dfg-logo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="scripts/app.js"
+    ></script>
+  </body>
+</html>

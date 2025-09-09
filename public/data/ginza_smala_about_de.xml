@@ -1,0 +1,637 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Einleitung</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Ginza - Die Heilige Schrift</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation></creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="intro">
+                <head>Einführung</head>
+
+                <p>Ginza, wörtlich „Schatz“ oder das „Große Buch“ (sidra rba) gilt als das
+                    eigentliche Hauptwerk, eine Art „Heilige Schrift“ der Mandäer. Der Ginza besteht
+                    aus zwei Hauptteilen dem „rechten Ginza“ (ginza iamina) und dem „linken Ginza“
+                    (ginza smala), die in den Handschriften entsprechend gekennzeichnet sind.
+                    Während der erste Teil eine Sammlung von 18 Traktaten (nach der Einteilung
+                    Lidzbarskis 1925) vorwiegend belehrenden, mythologischen und kosmologischen
+                    Inhalts ist, enthält der Linke Ginza ein erstes Buch in Prosa, das über den Tod
+                    Adams handelt, sowie zwei Sammlungen von Liedern, die die Menschenseele und ihr
+                    Schicksal nach dem Tod als Thema haben. Die einzelnen Traktate sind
+                    wahrscheinlich erst nach dem Kontakt mit dem Islam gesammelt und als Codex
+                    vereinigt worden, wahrscheinlich um für die mandäische Gemeinde den Status der <foreign
+                        xml:lang="arab">
+                        <hi rend="italic">ahl al-kitāb</hi>
+                    </foreign> „Besitzer
+                    des Buches“ unter der muslimischen Herrschaft zu erlangen. Der erste Versuch,
+                    den Ginza zu edieren und zu übersetzen, stammt von Matthias Norberg 1815/16.
+                    Dafür hat er die Handschrift Code Sabéen 2 aus der Bibliothèque nationale de
+                    France benutzt. Da er das Mandäische für ein schlechtes Syrisch hielt und dem
+                    entsprechend den Text verbesserte, ist seine Arbeit unbrauchbar. Die bis heute
+                    einzige brauchbare Edition wurde 1867 vom Berliner Orientalisten und Mitglied
+                    der Preußischen Akademie der Wissenschaften, Heinrich Petermann (1801-1876),
+                    herausgegeben. Dafür hat er die vier Pariser Handschriften Code Sabéen 1, 2, 3
+                    und 4 verwendet, wobei die Handschrift Code Sabéen 1, die älteste von allen
+                    (s.u.), als Editionshandschrift diente. Erst 1925 veröffentlichte der Semitist
+                    Mark Lidzbarski seine Ginza-Übersetzung. 1998 haben mandäische Gelehrte und
+                    Geistliche aus Sydney, Australien, eine eigene Ginzaedition (Mubaraki u.a. 1998)
+                    in einer für Computer selbstentwickelten mandäischern Schriftart auf der
+                    Grundlage von drei Handschriften aus Privatbibliotheken veröffentlicht.<note
+                        type="foot" n="1">Vgl. auch
+                        Buckley 2005, S. 79-84.</note> Der Text dieser Publikation war eher für
+                    kultische Zwecke gedacht und wurde nicht nach editionswissenschaftlichen
+                    Kriterien erstellt (es gibt weder eine Einleitung oder noch einen kritischen
+                    Apparat). Der Linke Ginza umfasst in der Petermannschen Edition 137 Seiten und
+                    hat folgenden Inhalt: </p>
+                <list>
+                    <item>
+                        <ref target="#docs?p=1" type="internal">1. Teil Vier Stücke in Prosa über
+                            den Tod Adams (S. 1-38,4)<note type="foot" n="2">Nach
+                                der
+                                Petermannschen Edition bzw. Handschrift A.</note></ref>
+                    </item>
+                    <item>
+                        <ref target="#docs?p=38,5" type="internal">2. Teil 28 Stücke in Versen über
+                            das Schicksal der
+                            Seele nach dem Tode (S. 38,5-74,2)</ref>
+                    </item>
+                    <item>
+                        <ref target="#docs?p=74,3" type="internal">3. Teil 62 Stücke in Versen
+                            ebenfalls über das
+                            Schicksal der Seele nach dem Tode (S. 74,3-137,12)</ref>
+                    </item>
+                </list>
+
+            </div>
+            <div type="manuscripts">
+                <head>Handschriften</head>
+
+                <p>Als Grundlage der Textedition des Linken Ginza dienen alle uns bekannten
+                    Handschriften aus öffentlichen Bibliotheken, sowie zwei Handschriften aus einer
+                    Privatbibliothek<note type="foot" n="3">In den mandäischen
+                        Privatbibliotheken soll es weitere Ginzaexemplare (vgl. Buckley 2005, S.
+                    65-78)
+                        meist neueren Datums geben, welche leider nicht zugänglich sind.</note> und
+                    eine gedruckte Publikation. Damit eine gewisse Kontinuität mit der Edition von
+                    Petermann gewährleistet wird, wird die Notation der dort verwendeten vier
+                    Handschriften übernommen. Sie werden mit den folgenden Sigeln notiert:</p>
+                <list>
+                    <item n="A">A: Die Handschrift Code Sabéen 1 aus der Bibliothèque nationale
+                        de France ist 1560 (968 A.H.) geschrieben und wurde 1674 für die damalige
+                        Bibliothèque de Colbert erworben. Der Schreiber heißt Ram Bahtiar, Sohn von
+                        Bihram Šadan, und ist als Kopist (und mandäischer Priester tarmida) bekannt.
+                        Er ist auch der Schreiber der Diuan-Abatur-Handschrift aus der Bibliotheca
+                        Vaticana (Signatur Borg. siriaco 175, 16. Jh.). Die Handschrift Code Sabéen
+                        1 ist auch die Handschrift A (Editionshandschrift) der Petermannschen
+                        Ginzaedition.</item>
+                    <item n="B">B: Code Sabéen 2 aus der Bibliothèque nationale de France wird
+                        auf 1632/33 (1042 A.H.) datiert und wurde von dem mandäischen Ganzibra
+                        (Ganzibra entspricht dem Rang eines Bischofs) Baktiar Bulbul geschrieben.</item>
+                    <item n="C">C: Code Sabéen 3 aus der Bibliothèque nationale de France wurde
+                        vom Schreiber Iahia Adam 1680 (1091 A.H.) geschrieben.</item>
+                    <item n="D">D: Code Sabéen 4 aus der Bibliothèque nationale de France wurde vom
+                        Schreiber Iahia Bihram wahrscheinlich 1688 (1100 A.H.)<note
+                            type="foot" n="4">Nach Buckley 2005, S. 44 u. 48, Anfang des 18.
+                            Jh.</note> geschrieben.</item>
+                    <item n="E">E: Die Handschrift Hunt. 6 aus der Bodleian Library Oxford, die
+                        von Adam Paraš 1615 in Basra geschrieben wurde.</item>
+                    <item n="F">F: Die Handschrift Add. 23,600 aus der British Library, die
+                        1735-36 von Iahia Bihram geschrieben wurde. Die erste Seite des Linken Ginza
+                        fehlt.</item>
+                    <item n="G">G: Add. 23,599 aus der British Library ist undatiert und wurde
+                        in der ersten Hälfte des 18. Jh. von mehreren Kopisten, darunter auch vom
+                        bereits erwähnten Iahia Bihram, geschrieben.</item>
+                    <item n="H">H: Die unvollständige Handschrift Ms 125 (3038) der Acad. lugd.
+                        nat. bibl. aus Leiden geschrieben 1752 (1166 A.H.). Diese Handschrift
+                        enthält vom Linken Ginza die Abschnitte 37, 23 – 114, 5 und 129, 12 – 138
+                        der Petermannschen Ginzaedition.</item>
+                    <item n="I">I: Add. 23,601 aus der British Library wurde 1824 von Adam
+                        Iuhana geschrieben.</item>
+                    <item n="J">J: Die Handschrift DC 22 aus der Bodleian Library Oxford, die
+                        1831 (1247 A.H.) von Ram Zihrun geschrieben wurde.</item>
+                    <item n="K">K: Die Handschrift 5L aus der Privatsammlung von Rbai Rafid aus
+                        Nijmegen (Niederlande). Sie wurde 1840/41 (1256 A.H.) von Iahia Bihram br
+                        Adam geschrieben.</item>
+                    <item n="L">L: Die Handschrift 5I aus der Privatsammlung von Rbai Rafid aus
+                        Nijmegen (Niederlande). Sie wurde 1876 (1256 A.H.) von Bihram br Ram Zihrun
+                        geschrieben.</item>
+                    <item n="S">S: Auch wenn die australische Ginzaedition (Mubaraki u.a. 1998)
+                        nicht die üblichen editionswissenschaftlichen Kriterien erfüllt, wird der
+                        Text dieser Publikation bei der Kollation ebenfalls berücksichtigt.</item>
+                </list>
+
+
+            </div>
+            <div type="editing">
+                <head>Vorgehen</head>
+                <p>Das Manuskript A dient als Leithandschrift (Kollationsexemplar), eine
+                    Entscheidung, die sowohl durch das hohe Alter dieses Manuskripts als auch wegen
+                    seiner Rolle als Editionshandschrift der Petermannschen Ginzaedition zu
+                    begründen ist. Diese Handschrift wird in der Transliteration vollständig
+                    wiedergegeben. Die Varianten der andern Textzeugen B bis L sowie S werden in den
+                    textkritischen Teil aufgenommen. Falls diese Varianten eine bessere Lesung als
+                    die Handschrift A anbieten, wird diese Lesung im Editionstext wiedergegeben. Für
+                    die Kollation werden Reproduktionen der Handschriften A bis L sowie S verwendet.
+                    Anschließend wurde aufgrund der Textvarianten das genealogische Verhältnis der
+                    einzelnen Handschriften untereinander stemmatisch herausgearbeitet. Es wurde
+                    zuerst ein Stemma für den ersten Teil des Linken Ginza (S. 1-38,4) aufgestellt
+                    und es dann anhand der Kollationsergebnisse der übrigen zwei Teile überprüft und
+                    bestätigt. </p>
+                <graph type="directed">
+                    <!-- Nodes -->
+                    <node xml:id="root">
+                        <label>Gemeinsame Vorlage</label>
+                    </node>
+                    <node xml:id="A">
+                        <label>A</label>
+                    </node>
+                    <node xml:id="BCDEFGHIJKLS">
+                        <label>BCDEFGHIJKL(S)</label>
+                    </node>
+                    <node xml:id="BCD">
+                        <label>BCD</label>
+                    </node>
+                    <node xml:id="EFGHIJKLS">
+                        <label>EFGHIJKL(S)</label>
+                    </node>
+                    <node xml:id="EH">
+                        <label>EH</label>
+                    </node>
+                    <node xml:id="FGIJKLS">
+                        <label>FGIJKL(S)</label>
+                    </node>
+                    <node xml:id="E">
+                        <label>E</label>
+                    </node>
+                    <node xml:id="H">
+                        <label>H</label>
+                    </node>
+                    <node xml:id="F">
+                        <label>F</label>
+                    </node>
+                    <node xml:id="GIJKLS">
+                        <label>GIJKL(S)</label>
+                    </node>
+                    <node xml:id="GIS">
+                        <label>GI(S)</label>
+                    </node>
+                    <node xml:id="JKL">
+                        <label>JKL</label>
+                    </node>
+                    <node xml:id="G">
+                        <label>G</label>
+                    </node>
+                    <node xml:id="I">
+                        <label>I</label>
+                    </node>
+                    <node xml:id="JK">
+                        <label>JK</label>
+                    </node>
+                    <node xml:id="L">
+                        <label>L</label>
+                    </node>
+                    <node xml:id="J">
+                        <label>J</label>
+                    </node>
+                    <node xml:id="K">
+                        <label>K</label>
+                    </node>
+
+                    <!-- Arcs (Links) -->
+                    <arc from="#root" to="#A" />
+                    <arc from="#root" to="#BCDEFGHIJKLS" />
+                    <arc from="#BCDEFGHIJKLS" to="#BCD" />
+                    <arc from="#BCDEFGHIJKLS" to="#EFGHIJKLS" />
+                    <arc from="#EFGHIJKLS" to="#EH" />
+                    <arc from="#EFGHIJKLS" to="#FGIJKLS" />
+                    <arc from="#EH" to="#E" />
+                    <arc from="#EH" to="#H" />
+                    <arc from="#FGIJKLS" to="#F" />
+                    <arc from="#FGIJKLS" to="#GIJKLS" />
+                    <arc from="#GIJKLS" to="#GIS" />
+                    <arc from="#GIJKLS" to="#JKL" />
+                    <arc from="#GIS" to="#G" />
+                    <arc from="#GIS" to="#I" />
+                    <arc from="#JKL" to="#JK" />
+                    <arc from="#JKL" to="#L" />
+                    <arc from="#JK" to="#J" />
+                    <arc from="#JK" to="#K" />
+                </graph>
+            </div>
+            <div type="edition">
+                <head>Edition</head>
+
+                <p>Die in dieser Arbeit verwendete Transliteration richtet sich mit einer einzigen
+                    Ausnahme nach der von Rudolph Macuch in MD und HCMM eingeführten Wiedergabe
+                    mandäischer Buchstaben durch lateinische Zeichen. Das Charakteristikum der
+                    Macuchschen Transliteration ist die Wiedergabe der <foreign xml:lang="la">
+                        <hi rend="italic">Matres lectiones</hi>
+                    </foreign><space
+                        quantity="1" unit="chars" /><foreign
+                        xml:lang="mand">ࡀ</foreign> &lt;<hi rend="italic">ʔ</hi>&gt;, <foreign
+                        xml:lang="mand">ࡅ</foreign> &lt;<hi rend="italic">w</hi>&gt; und <foreign
+                        xml:lang="mand">ࡉ</foreign> &lt;<hi rend="italic">y</hi>&gt; durch <hi
+                        rend="italic">a</hi>, <hi rend="italic">u</hi> und <hi rend="italic">i</hi>.
+                    Da auch [<foreign xml:lang="arab">ʕ</foreign>] (ʿayin) seinen konsonantischen
+                    Wert bereits in der klassischen Zeit der mandäischen Literatur verloren und
+                    somit die Rolle einer <foreign xml:lang="la">
+                        <hi rend="italic">mater lectionis</hi>
+                    </foreign>
+                    eingenommen hat, wird <hi rend="italic">ʿayin</hi> in dieser Edition
+                    konsequenterweise durch <hi rend="italic">e</hi> transliteriert.<note
+                        type="foot" n="5">Ausführlicher
+                        über die e-Transliteration Voigt 2007, 150ff. und Burtea 2008a, 55f. Diese
+                    Transliteration hat bereits der italienische Semitist G. Furlani in einigen
+                    seiner Beiträge verwendet, s. z.B. Furlani 1956.</note></p>
+
+                <p>Das eigentliche ʿ (ʿayin) wird nur in seltenen Fällen, und zwar für die
+                    Wiedergabe des arabischen <hi rend="italic">ʿayin</hi> verwendet.</p>
+
+                <p>Folgende Abkürzungen und Zeichen werden in der digitalen Edition verwendet:</p>
+                <table rows="6" cols="2">
+                    <row>
+                        <cell>(1)</cell>
+                        <cell>Zeilenzählung</cell>
+                    </row>
+                    <row>
+                        <cell>[Wort]</cell>
+                        <cell>sicher rekonstruierbare Stellen</cell>
+                    </row>
+                    <row>
+                        <cell>[]</cell>
+                        <cell>Lücke im Text</cell>
+                    </row>
+                    <row>
+                        <cell>{Wort}</cell>
+                        <cell>eingefügtes Wort</cell>
+                    </row>
+                    <row>
+                        <cell>⊚</cell>
+                        <cell>Gliederungsmittel: im Original ein Doppelkreis</cell>
+                    </row>
+                    <row>
+                        <cell>s<metamark function="horizontal-line">----</metamark>a</cell>
+                        <cell>Gliederungsmittel: markiert das Ende von Abschnitten und Kapiteln; im
+                            Original ein s mit einem langen Bindestrich gefolgt von einem a, es kann
+                            sich über die ganze Zeile erstrecken</cell>
+                    </row>
+                    <!-- Not used in digital edition
+                   <row>
+                        <cell>BCG</cell>
+                        <cell>vorhanden in den Handschriften BCG</cell>
+                    </row>
+                    <row>
+                        <cell>&gt;BCG</cell>
+                        <cell>fehlt in den Handschriften BCG</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rendition="underline">Wort</hi>
+                        </cell>
+                        <cell>vorhandenes Wort, das vom Abschreiber getilgt wurde</cell>
+                    </row>
+                    <row>
+                        <cell>+ Wort</cell>
+                        <cell>Dittographie</cell>
+                    </row>
+                    <row>
+                        <cell><hi rendition="hochgestellt">Wort</hi> / Wo<hi rendition="hochgestellt">rt</hi></cell>
+                        <cell>Markierung der vom Schreiber aus Platzmangel am Ende der Zeile
+                            hochgestellten Wörter oder Wortteile</cell>
+                    </row>
+                    <row>
+                        <cell>|</cell>
+                        <cell>trennt die einzelnen besprochenen Begriffe im Apparat voneinander</cell>
+                    </row>
+                    <row>
+                        <cell>;</cell>
+                        <cell>trennt die handschriftlichen Varianten zum jeweiligen Begriff </cell>
+                    </row>
+                    -->
+                </table>
+
+            </div>
+            <div type="translation">
+                <head>Übersetzung</head>
+
+                <p> Die Übersetzung bemüht sich, möglichst originalgetreu den Sinn des mandäischen
+                    Textes zu vermitteln. Gewöhnlich erscheinen die Übersetzungen von Wörtern in den
+                    Zeilen, in denen sie auch im mandäischen Original stehen, auch wenn dies
+                    manchmal nicht genau dem deutschen Stil entspricht. Schwierigkeiten bereitet die
+                    Wiedergabe der Termini technici. Ich habe mich zu zwei Verfahren entschlossen.
+                    Einen Teil der Begriffe habe ich übersetzt, wobei der mandäische Ausdruck in
+                    Klammern angefügt wird. Trotzdem konnte eine christliche Konnotation nicht immer
+                    ausgeschlossen werden, wie z.B. bei der Totenmesse (masiqta). Die übrigen
+                    mandäischen Termini wurden in transliterierter Form in die Übersetzung
+                    aufgenommen. Die meisten dieser Begriffe werden im Kommentar ausführlich
+                    besprochen.<note type="foot" n="6">Dabei wird ebenfalls die mandäische
+                    Transliteration beibehalten. Die Termini in anderen aramäischen Sprachen werden
+                    hingegen meist in vokalisierter Form wiedergegeben.</note></p>
+                <p>Folgende Abkürzungen und Zeichen werden in der Übersetzung verwendet:</p>
+                <table rows="6" cols="2">
+                    <row>
+                        <cell>(1)</cell>
+                        <cell>Zeilenzählung</cell>
+                    </row>
+                    <row>
+                        <cell>(Wort)</cell>
+                        <cell>Ergänzung nach dem Sinn</cell>
+                    </row>
+                    <row>
+                        <cell>(!)</cell>
+                        <cell>Auffälligkeiten in der Übersetzung</cell>
+                    </row>
+                    <row>
+                        <cell>(ginza)</cell>
+                        <cell>Wiedergabe mandäischer Begriffe</cell>
+                    </row>
+                    <row>
+                        <cell>[?]</cell>
+                        <cell>Unlesbare / unklare Stelle</cell>
+                    </row>
+                    <row>
+                        <cell>...</cell>
+                        <cell>Lücke</cell>
+                    </row>
+                </table>
+
+            </div>
+            <div type="transliteration">
+                <head>Transliteration</head>
+                <table rows="14" cols="4">
+                    <row role="label">
+                        <cell>Mandäisch</cell>
+                        <cell>Lateinisch</cell>
+                        <cell>Mandäisch</cell>
+                        <cell>Lateinisch</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡀ</foreign>
+                        </cell>
+                        <cell>a</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡍ</foreign>
+                        </cell>
+                        <cell>n</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡁ</foreign>
+                        </cell>
+                        <cell>b</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡎ</foreign>
+                        </cell>
+                        <cell>s</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡂ</foreign>
+                        </cell>
+                        <cell>g</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡏ</foreign>
+                        </cell>
+                        <cell>e</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡃ</foreign>
+                        </cell>
+                        <cell>d</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡐ</foreign>
+                        </cell>
+                        <cell>p</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡄ</foreign>
+                        </cell>
+                        <cell>h</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡑ</foreign>
+                        </cell>
+                        <cell>l</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡅ</foreign>
+                        </cell>
+                        <cell>u</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡒ</foreign>
+                        </cell>
+                        <cell>q</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡆ</foreign>
+                        </cell>
+                        <cell>z</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡓ</foreign>
+                        </cell>
+                        <cell>r</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡇ</foreign>
+                        </cell>
+                        <cell>ẖ</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡔ</foreign>
+                        </cell>
+                        <cell>š</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡈ</foreign>
+                        </cell>
+                        <cell>ṭ</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡕ</foreign>
+                        </cell>
+                        <cell>t</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡉ</foreign>
+                        </cell>
+                        <cell>i</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡖ</foreign>
+                        </cell>
+                        <cell>d-</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡊ</foreign>
+                        </cell>
+                        <cell>k</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡘ</foreign>
+                        </cell>
+                        <cell>'</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡋ</foreign>
+                        </cell>
+                        <cell>l</cell>
+                        <cell>
+                            <foreign xml:lang="mand">ࡗ</foreign>
+                        </cell>
+                        <cell>kd</cell>
+                    </row>
+                    <row role="data">
+                        <cell>
+                            <foreign xml:lang="mand">ࡌ</foreign>
+                        </cell>
+                        <cell>m</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </table>
+            </div>
+            <div type="dh">
+                <head>Digitale Edition</head>
+                <div>
+                    <head>Software und Technologien</head>
+                    <p>Die Edition <hi>Ginzā Rabbā</hi> wurde in der digitalen Arbeitsumgebung
+                        ediarum erstellt und folgt dem TEI-XML Standard. Diese von TELOTA
+                        entwickelte Softwarelösung erlaubt es Wissenschaftler*innen in einer
+                        nutzer*innenfreundlichen graphischen Oberfläche Transkriptionen von
+                        Manuskripten in TEI-konformem XML zu bearbeiten und mit einem Text- und
+                        Sachapparat zu versehen. Verschiedene Softwarekomponenten werden gebündelt
+                        und zur Erarbeitung einer digitalen Edition an die projektspezifischen
+                        Bedürfnisse angepasst.</p>
+                    <table>
+                        <row>
+                            <cell>Eingabe und Bearbeitung der Daten</cell>
+                            <cell>Angepasste und mit ediarum erweiterte Version des oXygen XML
+                                Author</cell>
+                        </row>
+                        <row>
+                            <cell>Speicherung während Erstellung der Daten</cell>
+                            <cell>XML-Datenbank eXist-db mit Komponenten von ediarum.DB</cell>
+                        </row>
+                        <row>
+                            <cell>Webentwicklung der digitalen Edition</cell>
+                            <cell>HTML, JavaScript und Tailwind CSS</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+
+                    <head>Digitale Edition</head>
+                    <p>Eine Auflistung der für die Erstellung der digitalen Edition genutzten
+                        Komponenten findet sich <ref type="internal" target="#credits">hier</ref>.</p>
+
+                    <p>Bei der Entwicklung der digitalen Edition <hi>Ginzā Rabbā</hi> wurde sich an
+                        gängigen Empfehlungen für ein nachhaltiges digital humanities-Projekt sowie
+                        den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable)
+                        orientiert. Besonderes Augenmerk wurde auf die Vermeidung komplexer
+                        Abhängigkeiten und die Nutzung etablierter Web-Standards gelegt, um so die
+                        Wartbarkeit und Zukunftssicherheit der Edition zu gewährleisten. Es wurden
+                        gezielt minimale, standardkonforme und offene Technologien verwendet und
+                        dabei eine klare Trennung von Inhalt und Präsentation verfolgt.</p>
+                    <list>
+                        <item>
+                            <label>Vanilla JavaScript</label>
+                            <p>Die digitale Edition verzichtet bewusst auf komplexe Frameworks,
+                                deren Ökosysteme und externe Abhängigkeiten. Dies eliminiert die
+                                Notwendigkeit von Build-Prozessen, Paket-Managern und zusätzlichen
+                                Toolchains. Die Edition kann ohne spezielle Entwicklungsumgebungen
+                                direkt im Browser genutzt werden und bleibt durch die gewählte
+                                Architektur langfristig wart- und erweiterbar. Durch den Einsatz
+                                nativer ES6-Module und Standard-Web-APIs wird eine klare
+                                Strukturierung der funktionalen Komponenten und ihrer jeweiligen
+                                Verantwortlichkeiten erreicht und
+                                die weitere Entwicklung der Anwendung vereinfacht. Die Edition ist
+                                als responsive Single-Page-Anwendung konzipiert, die vollständig auf
+                                clientseitiges Rendering setzt. Dies ermöglicht eine schnelle und
+                                reaktive Benutzeroberfläche bei gleichzeitiger Minimierung der
+                                Serveranforderungen.</p>
+                        </item>
+                        <item>
+                            <label>Static-Site-Ansatz</label>
+                            <p>Die Edition nutzt ausschließlich statisch
+                                ausgelieferte Ressourcen in standardisierten und offenen Formaten
+                                (HTML, CSS, JavaScript). Dadurch entfällt serverseitige Logik und
+                                die Abhängigkeit von Datenbanken, wodurch die Anzahl der für den
+                                Betrieb benötigten Komponenten reduziert und eine
+                                einfache Langzeitarchivierung ermöglicht wird. Auch wird so
+                                ein dauerhafter Betrieb der Edition mit minimaler
+                                technischer Infrastruktur gewährleistet. Die Anwendung ist dadurch
+                                weitestgehend unabhängig von spezifischen Diensten oder
+                                komplizierter Infrastruktur. Komplexere
+                                Funktionalitäten wie die Volltextsuche oder die Aufbereitung der
+                                Quelldateien für die Web-Darstellung wurden vollständig in
+                                clientseitigen JavaScript-Modulen realisiert.</p>
+                        </item>
+                        <item>
+                            <label>XML/TEI als Datenbasis</label>
+                            <p>Sämtliche Inhalte der Edition werden im standardisierten
+                                TEI-XML-Format hinterlegt. Dies sichert die langfristige
+                                Lesbarkeit, Interpretierbarkeit und Interoperabilität der Daten
+                                sowie die einfache Nachnutzung in anderen Digital
+                                Humanities-Projekten. Auch sind die Daten so
+                                plattformunabhängig, einfach nachnutzbar und für die langfristige
+                                Datenhaltung geeignet. Die digitale Edition nutzt die in ediarum
+                                erstellten TEI-XML-Dateien direkt als Datenquelle.</p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>Forschungsdaten</head>
+                    <p>Die Publikation der TEI-XML-Daten der digitalen Edition ist zur Zeit in
+                        Vorbereitung.</p>
+                </div>
+            </div>
+            <div type="team">
+                <head>Projektbeteiligte</head>
+                <div>
+                    <head>Projektleitung</head>
+                    <list>
+                        <item>Prof. Dr. Dr. h.c. mult. Christoph Markschies</item>
+                        <item>Dr. Bogdan Burtea</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Studentische Mitarbeiter*innen</head>
+                    <list>
+                        <item>Eleonora Treml</item>
+                        <item>Merlin Reichel</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Digitale Konzeption und Entwicklung (TELOTA)</head>
+                    <list>
+                        <item>Dr. Martin Fechner <ref type="orcid">
+                            https://orcid.org/0000-0001-9233-0653</ref></item>
+                        <item>Ruth Sander <ref type="orcid">https://orcid.org/0009-0008-3678-9070</ref>
+                        </item>
+                        <item>Tim Westphal <ref type="orcid">https://orcid.org/0009-0000-8580-4558</ref></item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

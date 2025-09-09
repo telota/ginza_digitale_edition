@@ -1,0 +1,154 @@
+<div id="contentWrapper">
+  <!-- Header Section -->
+  <div class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Suche</h1>
+    <div class="mt-2 flex flex-col sm:flex-row gap-4">
+      <!-- Search Input - Full width on mobile, flex-1 on larger screens -->
+      <div class="relative flex-1 w-full">
+        <span
+          class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </span>
+        <input
+          id="searchInput"
+          type="search"
+          data-search
+          placeholder="Suchbegriff eingeben ..."
+          class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-400 focus:border-transparent"
+          aria-label="Search input"
+        />
+      </div>
+
+      <!-- Filter -->
+      <div class="overflow-x-auto sm:mx-0">
+        <div
+          class="inline-flex items-center p-0.5 bg-gray-100 dark:bg-gray-700 rounded-lg h-10 min-w-max"
+          role="radiogroup"
+          aria-label="View Options"
+        >
+          <div class="flex space-x-0.5">
+            <!-- "Alle" Option -->
+            <input
+              type="radio"
+              id="view-both"
+              name="view"
+              value="both"
+              class="hidden peer/both"
+              checked
+              data-view-toggle
+            />
+            <label
+              for="view-both"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/both:bg-white peer-checked/both:text-slate-600 peer-checked/both:shadow-sm dark:peer-checked/both:bg-gray-600 dark:peer-checked/both:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              Alle
+            </label>
+
+            <!-- "Handschriften" Option -->
+            <input
+              type="radio"
+              id="view-manuscript"
+              name="view"
+              value="manuscript"
+              class="hidden peer/manuscript"
+              data-view-toggle
+            />
+            <label
+              for="view-manuscript"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/manuscript:bg-white peer-checked/manuscript:text-slate-600 peer-checked/manuscript:shadow-sm dark:peer-checked/manuscript:bg-gray-600 dark:peer-checked/manuscript:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              <span class="hidden sm:inline">Handschriften</span>
+              <span
+                class="inline sm:hidden"
+                title="Handschriften"
+                >Handschr.</span
+              >
+            </label>
+
+            <!-- "Übersetzung" Option -->
+            <input
+              type="radio"
+              id="view-translation"
+              name="view"
+              value="translation"
+              class="hidden peer/translation"
+              data-view-toggle
+            />
+            <label
+              for="view-translation"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/translation:bg-white peer-checked/translation:text-slate-600 peer-checked/translation:shadow-sm dark:peer-checked/translation:bg-gray-600 dark:peer-checked/translation:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              <span class="hidden sm:inline">Übersetzung</span>
+              <span
+                class="inline sm:hidden"
+                title="Übersetzung"
+                >Übers.</span
+              >
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Stats -->
+  <div
+    data-search-stats
+    class="px-3 sm:px-6 mt-2 text-sm text-gray-500 dark:text-gray-400"
+  >
+    <!-- Search stats will be inserted here -->
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="px-6 py-6 search-results-container">
+    <section
+      class="space-y-4"
+      data-section="search"
+    >
+      <div class="prose dark:prose-invert max-w-none">
+        <!-- Content will be inserted here -->
+        <div class="grid place-items-center min-h-[50vh]">
+          <div
+            class="flex flex-col items-center justify-center py-12 text-center"
+          >
+            <svg
+              class="w-16 h-16 text-gray-400 dark:text-gray-600 mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+            <h3
+              class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2"
+            >
+              Bereit für Ihre Suche
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400">
+              Bitte geben Sie einen Suchbegriff in das Eingabefeld ein, um mit
+              der Suche in den Handschriften und der Übersetzung zu beginnen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

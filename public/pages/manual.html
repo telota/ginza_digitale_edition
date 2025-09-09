@@ -1,0 +1,2457 @@
+<div id="contentWrapper">
+  <!-- Header Section -->
+  <div class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">
+      Hinweise zur Benutzung der digitalen Edition
+    </h1>
+    <!-- Tab Navigation -->
+    <nav
+      class="flex flex-wrap justify-start gap-3 min-w-full sm:flex-nowrap sm:justify-center md:justify-start mt-4"
+    >
+      <div
+        class="flex flex-wrap justify-start gap-3 min-w-full sm:flex-nowrap sm:justify-center md:justify-start"
+        role="tablist"
+      >
+        <button
+          role="tab"
+          aria-selected="true"
+          data-section-target="edition"
+          class="tracking-wide transition-colors text-gray-800 dark:text-white"
+        >
+          <span
+            class="block border-b transition-colors border-gray-600 dark:border-gray-300"
+            >Edition</span
+          >
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          data-section-target="notes"
+          class="tracking-wide transition-colors text-gray-800 dark:text-white"
+        >
+          <span
+            class="block border-b transition-colors border-gray-600 dark:border-gray-300"
+            >Anmerkungen</span
+          >
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          data-section-target="glossary"
+          class="tracking-wide transition-colors text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+        >
+          <span
+            class="block border-b transition-colors border-transparent hover:border-gray-400 dark:hover:border-gray-600"
+            >Glossar</span
+          >
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          data-section-target="search"
+          class="tracking-wide transition-colors text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+        >
+          <span
+            class="block border-b transition-colors border-transparent hover:border-gray-400 dark:hover:border-gray-600"
+            >Suche</span
+          >
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          data-section-target="literature"
+          class="tracking-wide transition-colors text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+        >
+          <span
+            class="block border-b transition-colors border-transparent hover:border-gray-400 dark:hover:border-gray-600"
+            >Bibliographie</span
+          >
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="px-6 py-6 max-h-auto">
+    <!-- Edition Section -->
+    <section
+      data-section="edition"
+      class="space-y-4"
+    >
+      <div class="prose dark:prose-invert max-w-none space-y-2">
+        <p class="text-lg text-gray-700 dark:text-gray-300">
+          Die digitale Edition
+          <span class="font-semibold">Ginzā Rabbā - Die heilige Schrift</span>
+          bietet eine interaktive Darstellung des Textes mit synoptischer
+          Ansicht von mandäischer Schrift, Transliteration und deutscher
+          Übersetzung.
+        </p>
+
+        <!-- Navigation -->
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Navigation
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="">
+                  <button
+                    id="navigationMenuBtn"
+                    class="flex items-center gap-2 h-10 px-4 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="w-4 h-4"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z"
+                      />
+                    </svg>
+                    <!--<span class="text-sm hidden lg:inline">Inhalt</span>-->
+                  </button>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit dem Menüsymbol kann das Navigationsmenü geöffnet
+                      werden. Hier können gezielt einzelne Teile und Stücke des
+                      Textes ausgewählt und angesprungen werden.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Navigation Dropdown Section -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div class="">
+                  <div
+                    id="navigationMenu"
+                    class="w-72 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-4"
+                  >
+                    <div class="space-y-4">
+                      <!-- Book Select -->
+                      <div class="space-y-2">
+                        <label
+                          for="bookSelect"
+                          class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >Buch</label
+                        >
+                        <div class="relative">
+                          <select
+                            id="bookSelect"
+                            disabled
+                            class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                          >
+                            <option value="left-ginza">Linker Ginza</option>
+                          </select>
+                          <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                          >
+                            <svg
+                              class="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Part Select -->
+                      <div class="space-y-2">
+                        <label
+                          for="partSelect"
+                          class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >Teil</label
+                        >
+                        <div class="relative">
+                          <select
+                            id="partSelect"
+                            class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                          >
+                            <option value="">Teil wählen</option>
+                          </select>
+                          <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                          >
+                            <svg
+                              class="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Chapter Select -->
+                      <div class="space-y-2">
+                        <label
+                          for="chapterSelect"
+                          class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >Stück</label
+                        >
+                        <div class="relative">
+                          <select
+                            id="chapterSelect"
+                            class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                          >
+                            <option value="">Stück wählen</option>
+                          </select>
+                          <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                          >
+                            <svg
+                              class="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Page Select -->
+                      <div class="space-y-2">
+                        <label
+                          for="pageSelect"
+                          class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >Seite</label
+                        >
+                        <div class="relative">
+                          <select
+                            id="pageSelect"
+                            class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+                          >
+                            <option value="">Seite wählen</option>
+                          </select>
+                          <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                          >
+                            <svg
+                              class="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Wählen Sie zunächst den gewünschten Teil des Textes aus.
+                    </li>
+                    <li>
+                      Anschließend können Sie ein spezifisches Stück oder eine
+                      bestimmte Seite auswählen. Die Auswahlmenüs aktualisiert
+                      sich automatisch basierend auf Ihrer Auswahl.
+                    </li>
+                    <li>
+                      Bei Auswahl einer Seite wird der Text an der gewählten
+                      Stelle angezeigt.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Navigation Controls -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div
+                  class="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700 h-10 w-48"
+                >
+                  <button
+                    id="firstPageTop"
+                    class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+
+                  <button
+                    id="prevPageTop"
+                    class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="w-px h-4 bg-gray-300 dark:bg-gray-500"></div>
+                  <div class="w-16 relative">
+                    <button
+                      id="pageMenuBtn"
+                      class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                    >
+                      <span
+                        class="text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap"
+                      >
+                        <span id="currentPageInfo">1</span>/<span
+                          id="totalPages"
+                          >137</span
+                        >
+                      </span>
+                    </button>
+                  </div>
+                  <div class="w-px h-4 bg-gray-300 dark:bg-gray-500"></div>
+                  <button
+                    id="nextPageTop"
+                    class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    id="lastPageTop"
+                    class="w-full h-full p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Nutzen Sie die Schaltflächen mit den Pfeilsymbolen zum
+                      Vor- und Zurückblättern in der digitalen Edition. Die
+                      Schaltflächen sind am oberen und unteren Seitenrand
+                      verfügbar. Die Schaltflächen mit den Doppelpfeilen führen
+                      zur ersten bzw. letzten Seite des Manuskripts.
+                    </li>
+                    <li>
+                      Die aktuell geöffnete Seite wird in der Mitte der
+                      Navigation angezeigt.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Quick Navigation Controls -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <!-- Page Selection Menu -->
+                <div
+                  id="pageMenu"
+                  class="w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3"
+                >
+                  <div class="text-sm font-medium mb-2">Seite auswählen</div>
+                  <div class="relative">
+                    <input
+                      type="number"
+                      id="pageSearch"
+                      class="w-full h-10 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 text-sm"
+                      placeholder="Seitenzahl ..."
+                    />
+                    <div
+                      id="pageOptions"
+                      class="mt-2 max-h-60 overflow-y-auto space-y-1"
+                    >
+                      <!-- Page options will be populated here -->
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Durch Klicken auf die Seitenzahl kann ein
+                      Schnellnavigationsmenü geöffnet werden, um direkt zu einer
+                      bestimmten Seite zu springen.
+                    </li>
+                    <li>
+                      Eine Seitenzahl kann direkt eingegeben und die Seite mit
+                      einem Drücken der Eingabetaste geöffnet werden.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Viewing options -->
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Ansichtsoptionen
+            </h3>
+            <div class="space-y-8">
+              <!-- Font Size -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="">
+                  <div
+                    class="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700 h-10 w-20"
+                  >
+                    <button
+                      id="decreaseFont"
+                      class="p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-l w-10"
+                    >
+                      A-
+                    </button>
+                    <div class="w-px h-4 bg-gray-300 dark:bg-gray-500"></div>
+                    <button
+                      id="increaseFont"
+                      class="p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-r w-10"
+                    >
+                      A+
+                    </button>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit den Schaltflächen A- und A+ lässt sich die
+                      Schriftgröße des Textes anpassen.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Navigation Dropdown Section -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div class="w-fit">
+                  <div
+                    id="columnControls"
+                    class="flex items-center bg-gray-100 dark:bg-gray-700 rounded-lg sm:h-10 h-32"
+                  >
+                    <div
+                      class="flex flex-col sm:flex-row gap-4 sm:space-x-4 w-full sm:w-auto pl-3 pr-2"
+                    >
+                      <!-- Mandaic Toggle -->
+                      <label class="flex items-center space-x-2 cursor-pointer">
+                        <div class="relative">
+                          <input
+                            type="checkbox"
+                            id="toggleMandaic-desktop"
+                            class="sr-only peer"
+                            checked
+                          />
+                          <div
+                            class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                          ></div>
+                        </div>
+                        <span class="text-sm whitespace-nowrap">Mandäisch</span>
+                      </label>
+
+                      <!-- Transliteration Toggle -->
+                      <label class="flex items-center space-x-2 cursor-pointer">
+                        <div class="relative">
+                          <input
+                            type="checkbox"
+                            id="toggleTransliteration-desktop"
+                            class="sr-only peer"
+                            checked
+                          />
+                          <div
+                            class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                          ></div>
+                        </div>
+                        <span class="text-sm whitespace-nowrap"
+                          >Transliteration</span
+                        >
+                      </label>
+
+                      <!-- Translation Toggle -->
+                      <label class="flex items-center space-x-2 cursor-pointer">
+                        <div class="relative">
+                          <input
+                            type="checkbox"
+                            id="toggleTranslation-desktop"
+                            class="sr-only peer"
+                            checked
+                          />
+                          <div
+                            class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                          ></div>
+                        </div>
+                        <span class="text-sm whitespace-nowrap"
+                          >Übersetzung</span
+                        >
+                      </label>
+                      <label class="flex items-center space-x-2 cursor-pointer">
+                        <div class="relative">
+                          <input
+                            type="checkbox"
+                            id="toggleVariants-desktop"
+                            class="sr-only peer"
+                            checked
+                          />
+                          <div
+                            class="w-9 h-5 bg-gray-300 peer-checked:bg-gray-800 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"
+                          ></div>
+                        </div>
+                        <span class="text-sm whitespace-nowrap">Varianten</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <p>
+                    Mit den Schaltern können Sie die Anzeige der drei
+                    Hauptspalten sowie die Darstellung der Hinweise auf
+                    Textvarianten ein- und ausblenden:
+                  </p>
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>Mandäisch: Originaltext in mandäischer Schrift</li>
+                    <li>
+                      Transliteration: Umschrift in lateinische Buchstaben
+                    </li>
+                    <li>Übersetzung: Deutsche Übersetzung</li>
+                    <li>
+                      Varianten: Anzeige der Unterstreichungen bei Textvarianten
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Column order button -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div class="w-10 h-10 relative">
+                  <button
+                    id="columnOrderBtn"
+                    class="w-full h-full p-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                    aria-label="Toggle column order"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 448 512"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Die Schaltfläche öffnet das Menü zum Anpassen der
+                      Spaltenreihenfolge.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Column order menu -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div
+                  class="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-4 w-fit"
+                >
+                  <div class="flex flex-col gap-2">
+                    <!-- Menu Header -->
+                    <div class="text-sm font-medium mb-2 ml-1">
+                      Spaltenreihenfolge anpassen
+                    </div>
+                    <!-- Column Order List - Changed to horizontal layout -->
+                    <div class="flex flex-row gap-2">
+                      <!-- Mandaic Column -->
+                      <div
+                        class="flex items-center p-2 bg-gray-50 dark:bg-gray-700 rounded-lg"
+                      >
+                        <span class="text-sm text-gray-700 dark:text-gray-300"
+                          >Mandäisch</span
+                        >
+                        <div class="flex gap-0.5 ml-2">
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                            disabled
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M15 4l-8 8 8 8" />
+                            </svg>
+                          </button>
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M9 4l8 8-8 8" />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- Transliteration Column -->
+                      <div
+                        class="flex items-center p-2 bg-gray-50 dark:bg-gray-700 rounded-lg"
+                      >
+                        <span class="text-sm text-gray-700 dark:text-gray-300"
+                          >Transliteration</span
+                        >
+                        <div class="flex gap-0.5 ml-2">
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M15 4l-8 8 8 8" />
+                            </svg>
+                          </button>
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M9 4l8 8-8 8" />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- Translation Column -->
+                      <div
+                        class="flex items-center p-2 bg-gray-50 dark:bg-gray-700 rounded-lg"
+                      >
+                        <span class="text-sm text-gray-700 dark:text-gray-300"
+                          >Übersetzung</span
+                        >
+                        <div class="flex gap-0.5 ml-2">
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M15 4l-8 8 8 8" />
+                            </svg>
+                          </button>
+                          <button
+                            class="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                            disabled
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path d="M9 4l8 8-8 8" />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mittels Klick auf die Pfeile neben einem Spaltennamen kann
+                      die Reihenfolge der dargestellten Spalten angepasst
+                      werden.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Witnesses -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div class="w-10 h-10 relative">
+                  <button
+                    id="witnessMenuBtn"
+                    class="w-full h-full p-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 80l0 48c0 17.7 14.3 32 32 32l16 0 48 0 0-80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48l0 304c0 35.3 28.7 64 64 64s64-28.7 64-64l0-5.3c0-32.4 26.3-58.7 58.7-58.7L480 320l0-192c0-53-43-96-96-96L112 32zM464 480c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16l-245.3 0c-14.7 0-26.7 11.9-26.7 26.7l0 5.3c0 53-43 96-96 96l176 0 96 0z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Die Schaltfläche öffnet das Menü zum Hinzufügen von
+                      zusätzlichen Spalten mit spezifischen Manuskriptvarianten.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+              >
+                <div
+                  class="w-72 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-4"
+                >
+                  <div class="flex flex-col gap-2">
+                    <!-- Menu Header -->
+                    <div class="text-sm font-medium mb-2 ml-1">
+                      Textzeugen hinzufügen
+                    </div>
+
+                    <!-- Witness Selection Interface -->
+                    <div class="flex items-center gap-2 mb-3">
+                      <div class="relative">
+                        <select
+                          id="witnessSelect"
+                          class="h-10 w-full rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-3 pr-8"
+                        >
+                          <option value="">Textzeuge auswählen ...</option>
+                        </select>
+                        <div
+                          class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200"
+                        >
+                          <svg
+                            class="h-4 w-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M19 9l-7 7-7-7"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <button
+                        id="addWitnessBtn"
+                        class="p-1.5 text-blue-600 hover:text-blue-700 dark:text-blue-400 cursor-pointer"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    <!-- Active Witness -->
+                    <div class="space-y-2">
+                      <div
+                        class="flex items-center justify-between p-2 bg-gray-50 dark:bg-gray-700 rounded-lg"
+                      >
+                        <span
+                          class="text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >DC - Ms Oxford</span
+                        >
+                        <div class="flex items-center gap-2">
+                          <span class="text-sm text-gray-600 dark:text-gray-400"
+                            >Abc</span
+                          >
+                          <label class="flex items-center">
+                            <input
+                              type="checkbox"
+                              class="sr-only peer"
+                              checked
+                            />
+                            <div
+                              class="w-9 h-5 bg-gray-300 peer-checked:bg-indigo-600 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all relative"
+                            ></div>
+                          </label>
+                          <button
+                            class="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
+                          >
+                            <svg
+                              class="w-5 h-5"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Über das Menü können Sie zusätzliche Textzeugen auswählen
+                      und mit dem Plus-Symbol in einer zusätzlichen Spalte
+                      anzeigen. Es kann eine beliebige Anzahl an zusätzlichen
+                      Manuskripten eingeblendet werden.
+                    </li>
+                    <li>
+                      Die aktiven Textzeugen werden in einer Liste unterhalb des
+                      Menüs dargestellt.
+                    </li>
+                    <li>
+                      Die Darstellung kann für jede sichtbare Manuskriptvariante
+                      mit dem Schalter "Abc" zwischen mandäischer Schrift und
+                      Transliteration umgeschaltet werden.
+                    </li>
+                    <li>
+                      Abweichungen von der Edition werden in blau hervorgehoben,
+                      Auslassungen von Textstellen in der jeweiligen Handschrift
+                      mit [...] markiert.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Textdarstellung
+            </h3>
+            <div class="space-y-8">
+              <!-- Demo line example with variants -->
+              <div class="mt-4 space-y-4">
+                <p class="text-sm text-gray-600 dark:text-gray-400 italic">
+                  Beispiel einer Zeile der digitalen Edition
+                </p>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-4">
+                  <div
+                    class="grid gap-2 sm:gap-4"
+                    style="grid-template-columns: 3rem 1fr 1fr 1fr"
+                  >
+                    <div
+                      class="text-gray-500 dark:text-gray-400 font-mono flex items-center gap-1"
+                    >
+                      <span
+                        class="text-blue-500 dark:text-blue-400 cursor-pointer hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-200"
+                      >
+                        <svg
+                          class="w-4 h-4 inline-block"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                          />
+                        </svg>
+                      </span>
+                      (<span class="underline">1</span>)
+                    </div>
+                    <div
+                      class="mandaic-text text-gray-900 dark:text-gray-100 text-center"
+                      style="direction: rtl"
+                    >
+                      ࡁࡔࡌࡀ <span class="term">ࡖࡄࡉࡉࡀ</span>
+                      <span class="persname">ࡓࡁࡉࡀ</span>
+                    </div>
+                    <div class="text-gray-900 dark:text-gray-100 text-center">
+                      bšuma
+                      <span class="term relative">
+                        ḏ-hiia
+                        <span
+                          class="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-gray-400"
+                        ></span>
+                        <span
+                          class="absolute -bottom-2 left-0 right-0 h-0.5 bg-gray-400"
+                        ></span>
+                      </span>
+                      <span class="persname">rbia</span>
+                    </div>
+                    <div class="text-gray-900 dark:text-gray-100">
+                      Im Namen des Lebens Großen
+                    </div>
+                  </div>
+                </div>
+                <p class="">
+                  In der digitalen Edition werden die Texte in drei Spalten
+                  dargestellt, dem mandäischen Original, der Transliteration und
+                  der deutschen Übersetzung. Durch farbige Hinterlegung werden
+                  <span class="term">Begriffe</span>,
+                  <span class="placename">Orte</span> und
+                  <span class="persname">Personen</span>
+                  gekennzeichnet. Durch anklicken der markierten Textstellen
+                  kann eine Erläuterung eingeblendet werden. Abweichungen
+                  einzelner Textvarianten werden durch Unterstreichungen
+                  hervorgehoben. Die Unterstreichungen können mit der Maus
+                  ausgewählt und angeklickt werden, um ein Popup mit
+                  zusätzlichen Informationen zu der Textstelle anzuzeigen.
+                </p>
+
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mt-4"
+                >
+                  <!-- Page Selection Menu -->
+                  <div class="">
+                    <div
+                      class="relative bg-white dark:bg-gray-800 rounded-lg p-4 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 w-[32rem] max-w-[90vw]"
+                    >
+                      <!-- Header section -->
+                      <div
+                        class="px-4 py-3 border-b border-gray-200 dark:border-gray-700"
+                      >
+                        <h3
+                          class="text-lg font-semibold text-gray-900 dark:text-white"
+                        >
+                          Seite 1, Zeile 1
+                        </h3>
+                      </div>
+
+                      <!-- Content section -->
+                      <div class="px-6 py-4 space-y-4">
+                        <!-- Citation block -->
+                        <div class="space-y-2">
+                          <label
+                            class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >
+                            Zitiervorschlag
+                          </label>
+                          <div class="flex items-center space-x-2">
+                            <code
+                              class="px-3 py-1.5 text-sm bg-gray-100 dark:bg-gray-700 rounded-md font-mono text-gray-800 dark:text-gray-200 flex-grow select-all"
+                            >
+                              Der Linke Ginza. In: Ginzā Rabbā [Digitale
+                              Edition]. Bearbeitet von Bogdan Burtea.
+                              Herausgegeben von der Berlin-Brandenburgische
+                              Akademie der Wissenschaften, Berlin 2025, S. 1,1.
+                              [https://ginza.bbaw.de/#docs?p=1,1] (abgerufen am
+                              01. Januar 2024).
+                            </code>
+                          </div>
+                        </div>
+
+                        <!-- Permalink section -->
+                        <div class="space-y-2">
+                          <label
+                            class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                          >
+                            Permalink
+                          </label>
+                          <div class="flex items-center space-x-2">
+                            <div
+                              class="px-3 py-1.5 text-sm bg-gray-100 dark:bg-gray-700 rounded-md flex-grow"
+                            >
+                              <a
+                                href="#docs?p=1,1"
+                                class="inline-flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+                              >
+                                <svg
+                                  class="w-4 h-4 mr-1 flex-shrink-0"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                                  />
+                                </svg>
+                                <span class="break-all"
+                                  >https://ginza.bbaw.de/#docs?p=1,1</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prose dark:prose-invert">
+                    <ul
+                      class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                    >
+                      <li>
+                        Durch Klick auf eine Zeilennummer öffnet sich ein Dialog
+                        mit einem zitierfähigem Nachweis der Zeile, sowie einem
+                        direkt auf diese weisenden Link.
+                      </li>
+                      <li>
+                        Liegen zusätzliche Anmerkungen zu einer Textzeile vor,
+                        wird dies durch die blaue Sprechblase links von der
+                        Zeilennummer hervorgehoben.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notes Section -->
+    <section
+      data-section="notes"
+      class="space-y-4 hidden"
+    >
+      <div class="prose dark:prose-invert max-w-none space-y-2">
+        <p class="text-lg text-gray-700 dark:text-gray-300">
+          In den Anmerkungen wurden zusätzliche Hinweise zu einzelnen Zeilen oder Bereichen von Zeilen hinterlegt
+        </p>
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Suche und Filter
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="relative flex-1 w-full">
+                  <span
+                    class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+                  >
+                    <svg
+                      class="h-5 w-5 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="search"
+                    data-glossary-search
+                    placeholder="Suchbegriff eingeben ..."
+                    class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200"
+                  />
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Nutzen Sie das Suchfeld, um nach bestimmten Anmerkungen zu
+                      suchen. Die Suche umfasst sowohl die Bezeichnung der Anmerkungen als auch deren Inhalt.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="overflow-x-auto sm:mx-0">
+                  <div
+                    class="inline-flex justify-center items-center p-0.5 bg-gray-100 dark:bg-gray-700 rounded-lg h-10 min-w-max"
+                    role="radiogroup"
+                    aria-label="Filter Options"
+                  >
+                    <div class="flex space-x-0.5">
+                      <!-- "Alle" Option -->
+                      <input
+                        type="radio"
+                        id="filter-all"
+                        name="filter"
+                        value="all"
+                        class="hidden peer/all"
+                        checked
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-all"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/all:bg-white peer-checked/all:text-slate-600 peer-checked/all:shadow-sm dark:peer-checked/all:bg-gray-600 dark:peer-checked/all:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        Alle
+                      </label>
+
+                      <!-- "Begriffe" Option -->
+                      <input
+                        type="radio"
+                        id="filter-terms"
+                        name="filter"
+                        value="terms"
+                        class="hidden peer/terms"
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-terms"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/terms:bg-white peer-checked/terms:text-slate-600 peer-checked/terms:shadow-sm dark:peer-checked/terms:bg-gray-600 dark:peer-checked/terms:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <span class="hidden sm:inline">Linker Ginza</span>
+                        <span
+                          class="inline sm:hidden"
+                          title="Begriffe"
+                          >Linker Ginza</span
+                        >
+                      </label>
+
+                      <!-- "Orte" Option -->
+                      <input
+                        type="radio"
+                        id="filter-places"
+                        name="filter"
+                        value="places"
+                        class="hidden peer/places"
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-places"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/places:bg-white peer-checked/places:text-slate-600 peer-checked/places:shadow-sm dark:peer-checked/places:bg-gray-600 dark:peer-checked/places:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        Rechter Ginza
+                      </label>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit den Filteroptionen kann die Anzeige der Anmerkungen auf einen bestimmten Text begrenzt werden:
+                    </li>
+                    <li class="flex items-center">
+                      <div
+                        class="w-3 h-3 rounded-full mr-2"
+                      ></div>
+                      <span
+                        ><strong>Linker Ginza</strong> Anmerkungen zum Linken Ginza</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <div
+                        class="w-3 h-3 rounded-full mr-2"
+                      ></div>
+                      <span
+                        ><strong>Rechter Ginza</strong> Anmerkungen zum Rechten Ginza</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Anmerkungen
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div id="notes-entry-ed_rlr_y4h_55b" class="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 sm:p-6 shadow-sm">
+                    <div class="flex flex-col sm:flex-row items-start justify-between gap-4 sm:gap-6">
+                        <div class="flex-1 w-full">
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
+                            <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+                            <div class="flex items-center gap-2">
+                                <button class="group relative inline-flex text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" onclick="notesUI.shownotesCitationPopup(event, 'ed_rlr_y4h_55b')">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                                    </svg>
+                                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-12 px-2 py-1 text-xs text-white 
+                                                bg-gray-900 rounded transition-opacity duration-200 pointer-events-none whitespace-nowrap
+                                                opacity-0 group-hover:opacity-100">
+                                        Permalink &amp;<br> Zitiervorschlag
+                                    </span>
+                                </button>
+                                <h3 class="text-lg sm:text-xl font-semibold text-gray-900 dark:text-gray-100">
+                                Testanmerkung
+                                </h3>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="px-2 py-1 text-xs font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200 rounded">
+                                Linker Ginza
+                                </span>
+                                
+                            </div>
+                            </div>
+                        </div>
+                        
+                    <div class="text-sm text-gray-600 dark:text-gray-400">
+                    Seite 1, Zeile 1
+                    </div>
+                
+                        
+                            <p class="text-sm text-gray-500 dark:text-gray-400 mt-2 sm:mt-1">
+                            Alternativ: Alternantiv
+                            </p>
+                        
+                        
+                        </div>
+                        <a href="/#docs?p=1,1" class="inline-flex items-center justify-center px-4 py-2 bg-white dark:bg-gray-700 
+                            text-xs font-medium rounded-md border border-gray-300 dark:border-gray-600
+                            text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 
+                            transition-colors duration-150">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                            <span class="whitespace-nowrap">Bezugsstelle öffnen</span>
+                        </a>
+                    </div>
+                    
+                    <div class="mt-4 space-y-4">
+                        <div class="mt-4">
+                        <div class="prose dark:prose-invert max-w-none">
+                            
+                            
+                                <p>Das ist ein Test für eine Anmerkung zu einer Zeile</p>
+                                <p>
+                                    <span class="quote inline-block mb-4 mt-4 pl-4 border-l-2 border-gray-200 dark:border-gray-700 italic" data-type="quote">„Zitat”<sup class="text-sm not-italic ml-1">[1]</sup></span>
+                                    
+                                </p>
+                                <p>zweites Zitat</p>
+                                <p>
+                                    <span class="quote inline-block mb-4 mt-4 pl-4 border-l-2 border-gray-200 dark:border-gray-700 italic" data-type="quote">„Testzitat.”<sup class="text-sm not-italic ml-1">[2]</sup></span>
+                                    
+                                </p>
+                            
+                            
+                                <div class="mt-4 text-sm text-gray-500 dark:text-gray-500 pl-4 border-gray-200 dark:border-gray-700">
+                                <div class="mt-1">
+                                    
+                                    <p class="mb-1">
+                                        <sup>[1]</sup> Literaturangabe,
+                                        61f.
+                                    </p>
+                                    
+                                    <p class="mb-1">
+                                        <sup>[2]</sup> Fußnote zwei
+                                    </p>
+                                    
+                                </div>
+                                </div>
+                            
+                            
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="prose dark:prose-invert">
+                  <p>Jeder Eintrag enthält:</p>
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Hauptbezeichnung und etwaige Alternativbezeichnungen (ggf.
+                      mit Sprachkennzeichnung)
+                    </li>
+                    <li>Erläuterungen</li>
+                    <li>
+                      Über das Kettensymbol
+                      <svg
+                        class="w-4 h-4 inline-block text-blue-600 dark:text-blue-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                        />
+                      </svg>
+                      neben dem Titel eines Eintrags können Sie einen Permalink
+                      oder zitierfähigen Nachweis abrufen
+                    </li>
+                    <li>
+                      Mit der Schaltfläche
+                      <button
+                        class="inline-flex items-center px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors mx-1"
+                      >
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>
+                        Bezugsstelle öffnen
+                      </button>
+                      kann die Textstelle auf die sich die Anmerkung bezieht geöffnet werden
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+            <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6">
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
+                Verlinkungen
+              </h3>
+              <div class="space-y-8">
+                <!-- Menu Button with Explanation -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                  <div class="flex items-center gap-2">
+                    <!-- Note Symbol -->
+                    <div class="text-gray-500 dark:text-gray-400 font-mono flex items-center gap-1">
+                      <span class="text-blue-500 dark:text-blue-400 cursor-pointer hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-200">
+                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
+                        </svg>
+                      </span>
+                      (<span class="underline">1</span>)
+                    </div>
+                  </div>
+          
+                  <div class="prose dark:prose-invert">
+                    <p class="text-gray-700 dark:text-gray-300">
+                      Verweise auf Anmerkungen finden sich in der digitalen Edition links von der Zeilennummer. Durch Klick auf die Sprechblase wird die entsprechende Anmerkung eingeblendet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Glossary Section -->
+    <section
+      data-section="glossary"
+      class="space-y-4 hidden"
+    >
+      <div class="prose dark:prose-invert max-w-none space-y-2">
+        <p class="text-lg text-gray-700 dark:text-gray-300">
+          Das Glossar enthält Erläuterungen zu mandäischen Begriffen, Orten und
+          Personen.
+        </p>
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Suche und Filter
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="relative flex-1 w-full">
+                  <span
+                    class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+                  >
+                    <svg
+                      class="h-5 w-5 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="search"
+                    data-glossary-search
+                    placeholder="Suchbegriff eingeben ..."
+                    class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200"
+                  />
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Über das Suchfeld kann nach bestimmten Begriffen im Glossar gesucht werden. Die Suche umfasst sowohl die Bezeichnung des
+                      jeweiligen Eintrags, alternative Bezeichnungen sowie dessen Inhalt.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="overflow-x-auto sm:mx-0">
+                  <div
+                    class="inline-flex justify-center items-center p-0.5 bg-gray-100 dark:bg-gray-700 rounded-lg h-10 min-w-max"
+                    role="radiogroup"
+                    aria-label="Filter Options"
+                  >
+                    <div class="flex space-x-0.5">
+                      <!-- "Alle" Option -->
+                      <input
+                        type="radio"
+                        id="filter-all"
+                        name="filter"
+                        value="all"
+                        class="hidden peer/all"
+                        checked
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-all"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/all:bg-white peer-checked/all:text-slate-600 peer-checked/all:shadow-sm dark:peer-checked/all:bg-gray-600 dark:peer-checked/all:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        Alle
+                      </label>
+
+                      <!-- "Begriffe" Option -->
+                      <input
+                        type="radio"
+                        id="filter-terms"
+                        name="filter"
+                        value="terms"
+                        class="hidden peer/terms"
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-terms"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/terms:bg-white peer-checked/terms:text-slate-600 peer-checked/terms:shadow-sm dark:peer-checked/terms:bg-gray-600 dark:peer-checked/terms:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <span class="hidden sm:inline">Begriffe</span>
+                        <span
+                          class="inline sm:hidden"
+                          title="Begriffe"
+                          >Begriffe</span
+                        >
+                      </label>
+
+                      <!-- "Orte" Option -->
+                      <input
+                        type="radio"
+                        id="filter-places"
+                        name="filter"
+                        value="places"
+                        class="hidden peer/places"
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-places"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/places:bg-white peer-checked/places:text-slate-600 peer-checked/places:shadow-sm dark:peer-checked/places:bg-gray-600 dark:peer-checked/places:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        Orte
+                      </label>
+
+                      <!-- "Personen" Option -->
+                      <input
+                        type="radio"
+                        id="filter-persons"
+                        name="filter"
+                        value="persons"
+                        class="hidden peer/persons"
+                        data-type-filter
+                      />
+                      <label
+                        for="filter-persons"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/persons:bg-white peer-checked/persons:text-slate-600 peer-checked/persons:shadow-sm dark:peer-checked/persons:bg-gray-600 dark:peer-checked/persons:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <span class="hidden sm:inline">Personen</span>
+                        <span
+                          class="inline sm:hidden"
+                          title="Personen"
+                          >Pers.</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit den Filteroptionen kann die Anzeige auf
+                      bestimmte Kategorien eingeschränkt werden:
+                    </li>
+                    <li class="flex items-center">
+                      <div
+                        class="w-3 h-3 rounded-full bg-blue-200 dark:bg-blue-700 mr-2"
+                      ></div>
+                      <span
+                        ><strong>Begriffe</strong> Religiöse und kulturelle
+                        Konzepte, Fachterminologie</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <div
+                        class="w-3 h-3 rounded-full bg-green-200 dark:bg-green-700 mr-2"
+                      ></div>
+                      <span
+                        ><strong>Orte</strong> Geographische und mythologische
+                        Orte</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <div
+                        class="w-3 h-3 rounded-full bg-red-200 dark:bg-red-700 mr-2"
+                      ></div>
+                      <span
+                        ><strong>Personen</strong> Historische und
+                        mythologische Figuren</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Glossareinträge
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div
+                  id="glossary-entry-ed_hsv_xqr_3dc"
+                  class="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 sm:p-6 shadow-sm"
+                >
+                  <div
+                    class="flex flex-col sm:flex-row items-start justify-between gap-4 sm:gap-6"
+                  >
+                    <div class="flex-1 w-full">
+                      <div
+                        class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4"
+                      >
+                        <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+                          <div class="flex items-center gap-2">
+                            <button
+                              class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                              onclick="glossaryUI.showGlossaryCitationPopup(event, 'ed_hsv_xqr_3dc')"
+                              title="Permalink &amp; Citation"
+                            >
+                              <svg
+                                class="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                                ></path>
+                              </svg>
+                            </button>
+                            <h3
+                              class="text-lg sm:text-xl font-semibold text-gray-900 dark:text-gray-100"
+                            >
+                              Almosen
+                            </h3>
+                          </div>
+                          <div class="flex flex-wrap items-center gap-2">
+                            <span
+                              class="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded"
+                            >
+                              Begriff
+                            </span>
+                          </div>
+                        </div>
+
+                        <a
+                          href="/#search?query=Almosen"
+                          class="inline-flex items-center justify-center w-full sm:w-32 px-3 py-1.5 text-xs font-medium rounded-md border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-150"
+                        >
+                          <svg
+                            class="w-3 h-3 mr-1 flex-shrink-0"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                            ></path>
+                          </svg>
+                          <span class="whitespace-nowrap">Begriff suchen</span>
+                        </a>
+                      </div>
+
+                      <p
+                        class="text-sm text-gray-500 dark:text-gray-400 mt-2 sm:mt-1"
+                      >
+                        Alternativ: zidqa
+                        <span
+                          class="px-1 py-0.5 text-[10px] font-medium bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 rounded"
+                          >mand.</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="mt-4 space-y-4">
+                    <div class="mt-4">
+                      <div class="prose dark:prose-invert max-w-none">
+                        <p>
+                          Almosen (zidqa) bekannt auch als zidqa brika –
+                          ‚gesegnetes Almosen‘ ist eine Art rituelles Totenmahl,
+                          das in der Regel am Begräbnistag, aber auch bei
+                          unterschiedlichen Anlässen, wie Tempel- und
+                          Ganzibraweihe oder Hochzeit, gefeiert wird.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <p>Jeder Eintrag enthält:</p>
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Hauptbezeichnung und etwaige Alternativbezeichnungen (ggf.
+                      mit Sprachkennzeichnung)
+                    </li>
+                    <li>Erläuterungen</li>
+                    <li>
+                      Über das Kettensymbol
+                      <svg
+                        class="w-4 h-4 inline-block text-blue-600 dark:text-blue-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                        />
+                      </svg>
+                      neben dem Titel eines Eintrags können Sie einen Permalink
+                      oder zitierfähigen Nachweis abrufen
+                    </li>
+                    <li>
+                      Mit der Schaltfläche
+                      <button
+                        class="inline-flex items-center px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors mx-1"
+                      >
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>
+                        Begriff suchen
+                      </button>
+                      kann eine Volltextsuche in der Edition nach dem Titel des
+                      jeweiligen Eintrags gestartet werden
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6">
+            <h3 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
+              Verlinkungen
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <!-- Moved explanation to the right -->
+                <div class="prose dark:prose-invert">
+                  <p>
+                    <span class="inline-block bg-blue-100 dark:bg-blue-900 px-2 py-0.5 rounded mx-1">Sachbegriffe</span>
+                    <span class="inline-block bg-green-100 dark:bg-green-900 px-2 py-0.5 rounded mx-1">Orte</span>
+                    <span class="inline-block bg-red-100 dark:bg-red-900 px-2 py-0.5 rounded mx-1">Personen</span>
+                  </p>
+                </div>
+                <div class="text-gray-700 dark:text-gray-300">
+                  <p><ul><li>Glossareinträge sind im Editionstext durch farbige Hinterlegungen gekennzeichnet.</li></ul></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Section -->
+    <section
+      data-section="search"
+      class="space-y-4 hidden"
+    >
+      <div class="prose dark:prose-invert max-w-none space-y-2">
+        <p class="text-lg text-gray-700 dark:text-gray-300">
+          Die Volltextsuche ermöglicht das Durchsuchen aller Handschriften und
+          der Übersetzung.
+        </p>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Suche und Filter
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="relative flex-1 w-full">
+                  <span
+                    class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+                  >
+                    <svg
+                      class="h-5 w-5 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="search"
+                    data-glossary-search
+                    placeholder="Suchbegriff eingeben ..."
+                    class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200"
+                  />
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Suchbegriffe können in dem Eingabefeld eingegeben werden. Die Suche beginnt automatisch ab der Eingabe von zwei Zeichen.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="overflow-x-auto sm:mx-0">
+                  <div
+                    class="inline-flex items-center p-0.5 bg-gray-100 dark:bg-gray-700 rounded-lg h-10 min-w-max"
+                    role="radiogroup"
+                    aria-label="View Options"
+                  >
+                    <div class="flex space-x-0.5">
+                      <!-- "Alle" Option -->
+                      <input
+                        type="radio"
+                        id="view-both"
+                        name="view"
+                        value="both"
+                        class="hidden peer/both"
+                        checked
+                        data-view-toggle
+                      />
+                      <label
+                        for="view-both"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/both:bg-white peer-checked/both:text-slate-600 peer-checked/both:shadow-sm dark:peer-checked/both:bg-gray-600 dark:peer-checked/both:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        Alle
+                      </label>
+
+                      <!-- "Handschriften" Option -->
+                      <input
+                        type="radio"
+                        id="view-manuscript"
+                        name="view"
+                        value="manuscript"
+                        class="hidden peer/manuscript"
+                        data-view-toggle
+                      />
+                      <label
+                        for="view-manuscript"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/manuscript:bg-white peer-checked/manuscript:text-slate-600 peer-checked/manuscript:shadow-sm dark:peer-checked/manuscript:bg-gray-600 dark:peer-checked/manuscript:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <span class="hidden sm:inline">Handschriften</span>
+                        <span
+                          class="inline sm:hidden"
+                          title="Handschriften"
+                          >Handschr.</span
+                        >
+                      </label>
+
+                      <!-- "Übersetzung" Option -->
+                      <input
+                        type="radio"
+                        id="view-translation"
+                        name="view"
+                        value="translation"
+                        class="hidden peer/translation"
+                        data-view-toggle
+                      />
+                      <label
+                        for="view-translation"
+                        class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/translation:bg-white peer-checked/translation:text-slate-600 peer-checked/translation:shadow-sm dark:peer-checked/translation:bg-gray-600 dark:peer-checked/translation:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                      >
+                        <span class="hidden sm:inline">Übersetzung</span>
+                        <span
+                          class="inline sm:hidden"
+                          title="Übersetzung"
+                          >Übers.</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit den Filteroptionen kann die Anzeige auf bestimmte Kategorien eingeschränkt werden:
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Alle</strong> Zeigt Treffer aus allen
+                        Textversionen</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Handschriften</strong> Zeigt nur Treffer aus
+                        den Handschriften</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Übersetzung</strong> Zeigt nur Treffer aus der
+                        Übersetzung</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Suchergebnisse
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 sm:p-6 shadow-sm">
+                    <div class="flex flex-col sm:flex-row items-start justify-between gap-4 sm:gap-6">
+                        <div class="flex-1 w-full">
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
+                                <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+                                    <div class="flex items-center gap-2">
+                                        <h3 class="text-sm font-medium text-gray-900 dark:text-gray-100">
+                                            <span class="px-2 py-1 text-sm font-semibold bg-slate-100 text-slate-700 
+                                                                 dark:bg-slate-700 dark:text-slate-200 rounded">
+                                                Seite 1, Zeile 4
+                                            </span>
+                                        </h3>
+                                    </div>
+                                </div>
+    
+                                <a href="http://127.0.0.1:8000/#docs?page=1&amp;line=4" class="inline-flex items-center justify-center w-full sm:w-32 px-3 py-1.5 
+                                                    text-xs font-medium rounded-md border border-gray-300 dark:border-gray-600
+                                                    text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-700 
+                                                    hover:bg-gray-100 dark:hover:bg-gray-600 
+                                                    transition-colors duration-150">
+                                    <svg class="w-3 h-3 mr-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                    </svg>
+                                    <span class="whitespace-nowrap">Fundstelle öffnen</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+        <div class="mt-2">
+            <div class="bg-white dark:bg-gray-800 p-2 rounded-lg border border-gray-200 dark:border-gray-700">
+            <details class="group" open="">
+                    <summary class="flex items-center justify-between p-2 cursor-pointer">
+                        <h3 class="text-sm font-medium text-gray-900 dark:text-gray-100">
+                            Textvarianten (2)
+                        </h3>
+                        <svg class="w-5 h-5 transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </summary>
+                        <div class="px-2 pb-2 space-y-2">
+                            
+                                    <div class="witness-version">
+                                        <div class="prose dark:prose-invert max-w-none p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                                            
+                                                <div class="flex flex-wrap items-center gap-2 mb-3">
+                                                    
+                                                                    <div class="flex items-center gap-2">
+                                                                        <span class="w-5 h-5 grid place-items-center text-xs font-medium 
+                                                                                    bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded">
+                                                                            G
+                                                                        </span>
+                                                                        <span class="text-xs text-gray-500 dark:text-gray-400">
+                                                                            British Library, Add. 23,599
+                                                                        </span>
+                                                                    </div>
+                                                </div>
+                                            <div class="text-gray-800 dark:text-gray-200">
+                                                eubadia asuta uzakuta ušabiq haṭaiia nihuilẖ ldilẖ el iasmin pt simat ulab <span class="bg-yellow-200 dark:bg-yellow-900">adam</span> iuhana br simat ⊚ ulem simat pt iasmin ⊚ ulzauai sam br haua mamania ⊚ ulšitlẖ simat u<span class="bg-yellow-200 dark:bg-yellow-900">adam</span> umhatam zihrun bnia iasmin ⊚ ulahẖ <span class="bg-yellow-200 dark:bg-yellow-900">adam</span> zihrun br simat ⊚ ninhar lbušak utitiaqar dmutak luat hahu
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="witness-version">
+                                        <div class="prose dark:prose-invert max-w-none p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                                            
+                                                <div class="flex flex-wrap items-center gap-2 mb-3">
+                                                    
+                                                                    <div class="flex items-center gap-2">
+                                                                        <span class="w-5 h-5 grid place-items-center text-xs font-medium 
+                                                                                    bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded">
+                                                                            I
+                                                                        </span>
+                                                                        <span class="text-xs text-gray-500 dark:text-gray-400">
+                                                                            British Library, Add. 23,601
+                                                                        </span>
+                                                                    </div>
+                                                </div>
+                                            <div class="text-gray-800 dark:text-gray-200">
+                                                eubadia asuta uzakuta ušabiq haṭaiia nihuilia ldilia <span class="bg-yellow-200 dark:bg-yellow-900">adam</span> br haua ⊚ ulab <span class="bg-yellow-200 dark:bg-yellow-900">adam</span> br haua ⊚ ulem haua pt haua ⊚ ulzauai haua pt haua ninhar lbušak utitiaqar dmutak luat hahu
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                        </div>
+                    </details>
+                </div>
+            </div>
+        
+                </div>
+                <div class="prose dark:prose-invert">
+                  <p>
+                    Die Ergebnisse werden nach Seiten- und Zeilennummer
+                    sortiert. Treffer in Varianten werden dabei nach Zeilen
+                    gruppiert angezeigt. Die Treffer enthalten:
+                  </p>
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>Seiten- und Zeilennummer</li>
+                    <li>
+                      Kennzeichnung der Textversion (Handschrift/Übersetzung)
+                    </li>
+                    <li>Link zur Fundstelle in der Edition</li>
+                    <li>Textkontext mit hervorgehobenem Suchbegriff</li>
+                    <li>
+                      Bei Varianten die spezifischen Texteugen
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Literature Section -->
+    <section
+      data-section="literature"
+      class="space-y-4 hidden"
+    >
+      <div class="prose dark:prose-invert max-w-none space-y-2">
+        <p class="text-lg text-gray-700 dark:text-gray-300">
+          Die Bibliographie listet die für die Erstellung der Edition verwendete
+          Literatur.
+        </p>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Suche und Filter
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="relative flex-1 w-full">
+                  <span
+                    class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+                  >
+                    <svg
+                      class="h-5 w-5 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="search"
+                    data-glossary-search
+                    placeholder="Suchbegriff eingeben ..."
+                    class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200"
+                  />
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Die Bibliographie kann durchsucht werden. Die Suche beginnt automatisch ab der Eingabe von zwei Zeichen.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="flex flex-wrap sm:flex-nowrap gap-2">
+                  <select
+                    id="typeFilter"
+                    class="h-10 w-full sm:w-auto px-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                  >
+                    <option value="all">Art</option>
+                    <option value="article">Aufsatz</option>
+                    <option value="book">Buch</option>
+                    <option value="thesis">Dissertation</option>
+                    <option value="inproceedings">Konferenzbeitrag</option>
+                    <option value="incollection">Kapitel</option>
+                  </select>
+
+                  <select
+                    id="yearFilter"
+                    class="h-10 w-full sm:w-auto px-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                  >
+                    <option value="all">Jahr</option>
+                  </select>
+
+                  <select
+                    id="languageFilter"
+                    class="h-10 w-full sm:w-auto px-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                  >
+                    <option value="all">Sprache</option>
+                  </select>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Mit den Auswahlmenüs kann die Anzeige gefiltert werden:
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Alle</strong> Filter nach
+                        Veröffentlichungsform</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Jahr</strong> Filter nach
+                        Erscheinungsjahr</span
+                      >
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Sprache</strong> Filter nach Sprache der
+                        Veröffentlichung</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <div class="flex items-center gap-2">
+                  <span class="text-sm text-gray-600 dark:text-gray-400"
+                    >Sortieren nach:</span
+                  >
+                  <button
+                    data-sort="author"
+                    class="px-3 py-1 rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Autor
+                    <span class="sort-indicator ml-1">↓</span>
+                  </button>
+                  <button
+                    data-sort="date"
+                    class="px-3 py-1 rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Jahr
+                    <span class="sort-indicator ml-1"></span>
+                  </button>
+                </div>
+                <div class="prose dark:prose-invert">
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>
+                      Die angezeigten Einträge können durch Klick auf die
+                      entsprechenden Symbole auf- oder absteigend sortiert
+                      werden:
+                    </li>
+                    <li class="flex items-center">
+                      <span><strong>Autor</strong> Sortierung nach Autor</span>
+                    </li>
+                    <li class="flex items-center">
+                      <span
+                        ><strong>Jahr</strong> Sortierung nach
+                        Erscheinungsjahr</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto p-2">
+          <div
+            class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+            >
+              Literaturverweise
+            </h3>
+            <div class="space-y-8">
+              <!-- Menu Button with Explanation -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <article
+                  id="lit-entry-brandt1889a"
+                  class="mb-4 pb-4 bg-gray-50 dark:bg-gray-900 rounded-lg p-6 shadow-sm"
+                >
+                  <div class="flex flex-col space-y-3">
+                    <div class="flex items-start justify-between gap-4">
+                      <div class="flex items-start gap-3 flex-grow">
+                        <div class="flex items-center gap-2 mt-1 flex-shrink-0">
+                          <button
+                            class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                            onclick="literatureUI.showLiteratureCitationPopup(event, 'brandt1889a')"
+                            title="Permalink &amp; Citation"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                              ></path>
+                            </svg>
+                          </button>
+                          <button
+                            class="group relative text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                            onclick="this.dataset.copied = true; setTimeout(() => delete this.dataset.copied, 2000); navigator.clipboard.writeText(decodeURIComponent('Brandt%2C%20Wilhelm%20(1889)%3A%20Die%20mand%C3%A4ische%20Religion.%20Ihre%20Entwicklung%20und%20geschichtliche%20Bedeutung%20erforscht%2C%20dargestellt%20und%20beleuchtet.%20Leipzig.'))"
+                            title="Zitation kopieren"
+                          >
+                            <svg
+                              class="w-4 h-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                              ></path>
+                            </svg>
+                            <span
+                              class="absolute left-1/2 -translate-x-1/2 -bottom-8 px-2 py-1 text-xs text-white bg-gray-900 rounded opacity-0 transition-opacity pointer-events-none group-hover:opacity-100 group-data-[copied]:content-['Kopiert!'] whitespace-nowrap"
+                            >
+                              Zitation kopieren
+                            </span>
+                          </button>
+                        </div>
+
+                        <div
+                          class="citation-text prose dark:prose-invert prose-sm max-w-none"
+                        >
+                          <div class="citation-main">
+                            <span class="font-semibold">Brandt, Wilhelm</span>
+                            (1889):
+                            <span class="italic"
+                              >Die mandäische Religion. Ihre Entwicklung und
+                              geschichtliche Bedeutung erforscht, dargestellt
+                              und beleuchtet</span
+                            >. Leipzig.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="flex-shrink-0 flex flex-wrap justify-end gap-2 ml-4"
+                      >
+                        <span
+                          class="px-2 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded whitespace-nowrap"
+                        >
+                          Buch
+                        </span>
+
+                        <span
+                          class="px-2 py-1 text-xs font-medium bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 rounded whitespace-nowrap"
+                        >
+                          Deutsch
+                        </span>
+
+                        <span
+                          class="px-2 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded whitespace-nowrap"
+                        >
+                          1889
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <div class="prose dark:prose-invert">
+                  <p>
+                    Die Ergebnisse werden zunächst nach Autorenname sortiert.
+                    Die Einträge enthalten:
+                  </p>
+                  <ul
+                    class="space-y-4 text-gray-700 dark:text-gray-300 list-disc pl-5"
+                  >
+                    <li>Permalink und Zitiervorschlag</li>
+                    <li>Option zum kopieren des Verweises</li>
+                    <li>
+                      Hinweise zu Erscheinungsform und Sprache der
+                      Veröffentlichung
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="w-full border-t border-gray-200 dark:border-gray-700 mt-4">
+      <!-- Button and pagination row - Flex column on small screens -->
+      <div class="flex justify-end mt-2 px-2">
+        <!-- Back to Top button - Hidden on small screens -->
+        <button
+          onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+          class="cursor-pointer flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors"
+        >
+          <span class="text-sm font-medium">Seitenanfang</span>
+          <svg
+            class="w-5 h-5 flex-shrink-0"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 15l7-7 7 7"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

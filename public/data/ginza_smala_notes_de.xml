@@ -1,0 +1,51 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="ginza_glossar_register">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anmerkungen</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Gehört zur ediarum-App für eXist.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+
+                <item xml:id="ed_rlr_y4h_55b">
+                    <label type="reg">Testanmerkung123</label>
+                    <label type="alt">Alternantiv</label>
+                    <ref type="manuscript">Linker Ginza</ref>
+                    <locus from="1.1" to="1.1" />
+                    <note>
+                        <p>Das ist ein Test für eine Anmerkung zu einer Zeile</p>
+                        <p>
+                            <quote>Zitat</quote>
+                            <note place="foot">Literaturangabe,
+                                61f.</note>
+                        </p>
+                        <p>zweites Zitat</p>
+                        <p>
+                            <quote>Testzitat.</quote>
+                            <note place="foot">Fußnote zwei</note>
+                        </p>
+                    </note>
+                </item>
+                <item xml:id="ed_hsv_xqr_3dc">
+                    <label type="reg">Zweite Testanmerkung</label>
+                    <label type="alt" xml:lang="myz">zidqa</label>
+                    <ref type="manuscript">Linker Ginza</ref>
+                    <locus from="1.16" to="1.18" />
+                    <note>
+                        <p>Testanmerkung zu mehreren Zeilen.</p>
+                    </note>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

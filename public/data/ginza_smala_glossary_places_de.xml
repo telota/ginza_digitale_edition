@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="register">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ortsregister</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Gehört zur ediarum-App für eXist.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Hybrid: consult project description and document history for details.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="ed_mnv_nr1_2gc">
+                    <placeName type="reg">Babel</placeName>
+                    <note>Babel (babil), i.e. Babylon, wird relativ häufig in der mandäischen
+                        Literatur erwähnt, allein im Ginza kommt es elf Mal vor und ist fester
+                        Bestandteil mandäischer Geographievorstellungen (Siehe Furlani 1954).</note>
+                </place>
+                <place xml:id="ed_yfp_xr1_2gc">
+                    <placeName type="reg">Borsippa</placeName>
+                    <note>Für die nah am Babylon gelegene Stadt Borsippa bur(u)ṣip gibt es wenige
+                        Belege in der mandäischen Literatur. Außer dieser Ginza-Erwähnung kommt sie
+                        in einer von Drower edierten magischen Text (DC 46) wiederum zusammen mit
+                        babil vor: epik bil mn babil epik enbu mn burṣipi (Drower 1943, S. 181, §
+                        27) „Bel wandte sich von Babylon ab, Nabu wandte sich von Borsippa ab“.
+                        Obwohl es sich dabei um einen späteren Text handelt, wusste man noch, dass
+                        Nabu der Stadtgott von Borsippa war.</note>
+                </place>
+                <place xml:id="ed_mb1_ps1_2gc">
+                    <placeName type="reg">Sind</placeName>
+                    <note>Sind (Sindh) ist das Gebiet um den Fluss Indus im heutigen
+                        Pakistan.</note>
+                </place>
+                <place xml:id="ed_d1w_byh_2gc">
+                    <placeName type="reg">Abbadon</placeName>
+                    <note>‚Abbadon‘: ebdunia ist eine Pluralform von
+                        abdana ‚Verdammnis, Untergang; Ende der Welt, Abbadon, Ort der Verwüstung‘,
+                        abgeleitet von der Wurzel ABD III ‚zugrunde gehen, untergehen‘ (MD 3). Es
+                        handelt sich wahrscheinlich um ein Lehnwort aus dem hebräischen אֲבַדּוֹן
+                        ‚Untergang; Ort des Untergangs‘, s. Hi 26,6; 28,22; 31,12, Ps 88,12 und Pr
+                        15, 11.</note>
+                </place>
+                <place xml:id="ed_vqh_hfw_2gc">
+                    <placeName type="reg">Hiṭpun </placeName>
+                    <note>Der Fluss Hiṭpun hiṭpun zaba ist ein Fluss
+                        der Unterwelt. Hiṭpun bedeutet wörtlich ‚sie (das Wasser mia ist ein pl.
+                        tantum) reißen mich weg‘.</note>
+                </place>
+                <place xml:id="ed_zsg_21v_hdc">
+                    <placeName type="reg">maṭarata</placeName>
+                    <note>Die Wachthäuser (maṭarata, sg. maṭarta) sind Orte, in denen die sündigen
+                        Seelen gefangen gehalten und gefoltert werden. Sie werden in der Regel einem
+                        Planeten oder einem Lichtwesen zugeschrieben.</note>
+                </place>
+                <place xml:id="ed_irj_vbv_hdc">
+                    <placeName type="reg">Škinta</placeName>
+                    <note>Škinta (pl. škinata) bezeichnet in der Regel
+                        die himmlischen Wohnungen oder Aufenthaltsorte der Lichtwesen (Uthras). In
+                        den syrisch-manichäischen Quellen verwendet man für die Gliederungen des
+                        Lichtreiches den Begriff škīnā, welche nicht nur die hypostasierte Form des
+                        obersten Prinzips ist, sondern auch den Platz, Ort oder Raum meint, in dem
+                        dieser haust.</note>
+                </place>
+                <place xml:id="ed_ysm_ny5_hdc">
+                    <placeName type="reg">Iardna</placeName>
+                    <placeName type="alt">Jordan</placeName>
+                    <note>Nach der mandäischen Auffassung kann die Taufe in jedem fließenden Wasser
+                        praktiziert werden, welches Jordan genannt wird. Da die auf der Erde (Tibil)
+                        ausgeübten Rituale Nachahmungen der im Lichtreich von Lichtwesen (Uthras)
+                        praktizierten Zeremonien sind, gibt es im Lichtreich ein Pendant zum
+                        irdischen Taufwasser (Iardna): der große Jordan des Lebens iardna rba
+                        ḏhiia.</note>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

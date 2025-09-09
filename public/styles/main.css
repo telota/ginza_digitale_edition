@@ -1,0 +1,507 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Noto Sans Mandaic";
+  src: url("../assets/fonts/NotoSansMandaic-Regular.ttf") format("truetype");
+  /* font-weight: normal;
+  font-style: normal;
+  font-display: swap; */
+}
+
+.mandaic-text {
+  font-family: "Noto Sans Mandaic", system-ui, -apple-system, sans-serif;
+}
+
+/* Details Animation */
+details[open] summary ~ * {
+  animation: slide-in 300ms ease-in-out;
+}
+
+details:not([open]) summary ~ * {
+  animation: slide-out 300ms ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* Darkmode Transition,  */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.075s ease;
+}
+
+.no-transition {
+  transition: none !important;
+}
+
+.highlight-entry {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  transform: translateY(-1px);
+}
+
+/* Base Layout */
+.parallel-line {
+  display: grid;
+  grid-template-columns: 3rem 2fr 2fr 2fr;
+  gap: 1rem;
+  align-items: start;
+  min-width: 768px;
+}
+
+.parallel-line-hover:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.dark .parallel-line-hover:hover {
+  background-color: rgb(55, 65, 81); /* dark mode: gray-700 */
+}
+
+/* Column Variations */
+.parallel-line.single-column {
+  grid-template-columns: 3rem 1fr;
+}
+.parallel-line.two-columns {
+  grid-template-columns: 3rem 1fr 1fr;
+}
+.parallel-line.three-columns {
+  grid-template-columns: 3rem 2fr 2fr 2fr;
+}
+
+/* Special modifier for Mandaic lemmas */
+.mandaic-text .lemma {
+  text-underline-offset: 9px; /* Increased offset for Mandaic text */
+}
+
+/* Optional: adjust hover state for Mandaic lemmas if needed */
+.mandaic-text .lemma:hover {
+  text-underline-offset: 9px; /* Keep consistent offset on hover */
+}
+/* Text Directions */
+.mandaic-text {
+  font-family: "Noto Sans Mandaic", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.transliteration-text,
+.translation-text {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Additional positioning for RTL support */
+.mandaic-text .siglum-tooltip::before {
+  direction: ltr; /* Keep tooltip text left-to-right */
+}
+
+/* Details Animation */
+details[open] summary ~ * {
+  animation: slide-in 300ms ease-in-out;
+}
+
+details:not([open]) summary ~ * {
+  animation: slide-out 300ms ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* Focus States */
+@keyframes focusRingFade {
+  0% {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6366f1;
+  }
+  100% {
+    box-shadow: 0 0 0 2px transparent, 0 0 0 4px transparent;
+  }
+}
+
+.focus-visible:focus-visible {
+  animation: focusRingFade 0.2s ease-in forwards;
+  animation-delay: 1s;
+}
+
+/* Person Names */
+.persname {
+  background-color: rgba(
+    167,
+    139,
+    250,
+    0.3
+  ); /* Light purple with low opacity */
+  cursor: help;
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.persname:hover {
+  background-color: rgba(167, 139, 250, 0.5);
+}
+
+/* Place Names */
+.placename {
+  background-color: rgba(134, 239, 172, 0.3); /* Light green with low opacity */
+  cursor: help;
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.placename:hover {
+  background-color: rgba(134, 239, 172, 0.5);
+}
+
+/* Terms */
+.term {
+  background-color: rgba(191, 219, 254, 0.3); /* Light blue with low opacity */
+  cursor: help;
+  padding: 0.1rem 0.1rem; /* Small horizontal padding */
+  border-radius: 0.2rem; /* Slightly rounded corners */
+}
+
+.term:hover {
+  background-color: rgba(191, 219, 254, 0.5);
+}
+
+.tooltip {
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Underlines */
+.underline-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-text {
+  position: relative;
+}
+
+/* Update the underline-click styles */
+.underline-click {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  transform: scaleY(1);
+  opacity: 0.7;
+}
+
+/* When clicked/active */
+.underline-click.active {
+  opacity: 1 !important;
+  transform: scaleY(1.5) !important;
+}
+
+.underline-click.level-1 {
+  height: 5px;
+  top: calc(100% + 2px);
+  background-color: gray;
+}
+
+.underline-click.level-2 {
+  height: 5px;
+  top: calc(100% + 4px);
+  background-color: darkgray;
+}
+
+.underline-click.level-3 {
+  height: 5px;
+  top: calc(100% + 6px);
+  background-color: lightgray;
+}
+
+.underline-click.level-4 {
+  height: 5px;
+  top: calc(100% + 8px);
+  background-color: #e0e0e0;
+}
+
+.underline-click.level-5 {
+  height: 5px;
+  top: calc(100% + 10px);
+  background-color: #f0f0f0;
+}
+
+.dark .underline-click.level-1 {
+  background-color: #888; /* Medium gray */
+}
+
+.dark .underline-click.level-2 {
+  background-color: #666; /* Darker gray */
+}
+
+.dark .underline-click.level-3 {
+  background-color: #444; /* Very dark gray */
+}
+
+.dark .underline-click.level-4 {
+  background-color: #333; /* Near black */
+}
+
+.dark .underline-click.level-5 {
+  background-color: #222; /* Almost pure black */
+}
+
+.linecontainer {
+  position: relative;
+}
+
+.parallel-line-highlight {
+  background-color: rgba(255, 255, 0, 0.2);
+  transition: background-color 0.5s ease;
+}
+
+[data-theme="dark"] .parallel-line-highlight {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Base grid layout */
+.parallel-content {
+  display: grid;
+  grid-template-columns: 3rem repeat(auto-fit, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* Stack columns on small screens */
+@media (max-width: 850px) {
+  .parallel-content {
+    grid-template-columns: 1fr !important; /* Override inline styles */
+    gap: 0.5rem;
+    /* more vertical spacing */
+  }
+
+  .parallel-line {
+    display: flex !important; /* Override grid */
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 0; /* Allow wrapping */
+    padding: 0 0.5rem; /* Add horizontal spacing */
+  }
+}
+
+#columnOrderBtn {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#columnOrderBtn:hover {
+  background-color: #e5e7eb;
+}
+.dark #columnOrderBtn:hover {
+  background-color: #4b5563;
+}
+
+/* Rotate icon 90 degrees on small screens */
+@media (max-width: 850px) {
+  #columnOrderBtn svg {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+}
+
+/* Optional: Add smooth rotation animation when switching between screen sizes */
+#columnOrderBtn svg {
+  transition: transform 0.3s ease;
+}
+
+/* Base styles for the list */
+/* Base styles for the list */
+.column-order-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+/* Make buttons container stretch in vertical mode */
+.column-order-list > div {
+  width: 100%; /* Stretch container full width */
+}
+
+/* Horizontal layout for larger screens */
+@media (min-width: 850px) {
+  .column-order-list {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .column-order-list > div {
+    width: auto; /* Reset width for horizontal layout */
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Control popup width in vertical mode */
+@media (max-width: 849px) {
+  .column-order-list {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* Make the buttons container take full width */
+  .column-order-list > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Ensure the text and buttons are properly spaced */
+  .column-order-list > div span {
+    flex: 1;
+  }
+}
+
+.move-left svg,
+.move-right svg {
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 850px) {
+  .move-left svg,
+  .move-right svg {
+    transform: rotate(90deg);
+  }
+}
+
+.node {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #4299e1;
+  stroke-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.node text {
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: 14px;
+  fill: #2d3748;
+  transition: all 0.3s ease;
+}
+
+.node:hover circle {
+  fill: #4299e1;
+  r: 8;
+}
+
+.node:hover text {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.link {
+  fill: none;
+  stroke: #cbd5e0;
+  stroke-width: 1.5px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  stroke: #4299e1;
+  stroke-width: 2px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 8px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern browsers - style the gutter */
+html {
+  scrollbar-gutter: stable;
+  background-color: rgb(31, 41, 55); /* dark:bg-gray-800 */
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: rgb(255, 255, 255); /* bg-white */
+  }
+}
+
+/* Fallback for browsers that don't support scrollbar-gutter */
+@supports not (scrollbar-gutter: stable) {
+  html {
+    overflow-y: scroll;
+  }
+}
+
+.underline-click {
+  /* ...existing styles... */
+  opacity: 0.7;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease,
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.variants-hidden .underline-click {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

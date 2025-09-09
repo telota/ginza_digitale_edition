@@ -1,0 +1,138 @@
+<div id="contentWrapper">
+  <!-- Header Section -->
+  <div class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Glossar</h1>
+    <div class="mt-2 flex flex-col sm:flex-row gap-4">
+      <!-- Search Input - Full width on mobile, flex-1 on larger screens -->
+      <div class="relative flex-1 w-full">
+        <span
+          class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </span>
+        <input
+          type="search"
+          id="glossarySearchInput"
+          data-glossary-search
+          placeholder="Suchbegriff eingeben ..."
+          class="h-10 block w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:focus:ring-gray-400 focus:border-transparent"
+        />
+      </div>
+
+      <!-- Type Filter - Scrollable container on small screens -->
+      <div class="overflow-x-auto sm:mx-0">
+        <div
+          class="inline-flex justify-center items-center p-0.5 bg-gray-100 dark:bg-gray-700 rounded-lg h-10 min-w-max"
+          role="radiogroup"
+          aria-label="Filter Options"
+        >
+          <div class="flex space-x-0.5">
+            <!-- "Alle" Option -->
+            <input
+              type="radio"
+              id="filter-all"
+              name="filter"
+              value="all"
+              class="hidden peer/all"
+              checked
+              data-type-filter
+            />
+            <label
+              for="filter-all"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/all:bg-white peer-checked/all:text-slate-600 peer-checked/all:shadow-sm dark:peer-checked/all:bg-gray-600 dark:peer-checked/all:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              Alle
+            </label>
+
+            <!-- "Begriffe" Option -->
+            <input
+              type="radio"
+              id="filter-terms"
+              name="filter"
+              value="terms"
+              class="hidden peer/terms"
+              data-type-filter
+            />
+            <label
+              for="filter-terms"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/terms:bg-white peer-checked/terms:text-slate-600 peer-checked/terms:shadow-sm dark:peer-checked/terms:bg-gray-600 dark:peer-checked/terms:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              <span class="hidden sm:inline">Begriffe</span>
+              <span
+                class="inline sm:hidden"
+                title="Begriffe"
+                >Begriffe</span
+              >
+            </label>
+
+            <!-- "Orte" Option -->
+            <input
+              type="radio"
+              id="filter-places"
+              name="filter"
+              value="places"
+              class="hidden peer/places"
+              data-type-filter
+            />
+            <label
+              for="filter-places"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/places:bg-white peer-checked/places:text-slate-600 peer-checked/places:shadow-sm dark:peer-checked/places:bg-gray-600 dark:peer-checked/places:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              Orte
+            </label>
+
+            <!-- "Personen" Option -->
+            <input
+              type="radio"
+              id="filter-persons"
+              name="filter"
+              value="persons"
+              class="hidden peer/persons"
+              data-type-filter
+            />
+            <label
+              for="filter-persons"
+              class="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-md cursor-pointer peer-checked/persons:bg-white peer-checked/persons:text-slate-600 peer-checked/persons:shadow-sm dark:peer-checked/persons:bg-gray-600 dark:peer-checked/persons:text-slate-300 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            >
+              <span class="hidden sm:inline">Personen</span>
+              <span
+                class="inline sm:hidden"
+                title="Personen"
+                >Pers.</span
+              >
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Stats -->
+  <div
+    data-glossary-stats
+    class="px-3 sm:px-6 mt-2 text-sm text-gray-500 dark:text-gray-400"
+  >
+    <!-- Search stats will be inserted here -->
+  </div>
+
+  <!-- Content Section -->
+  <div class="px-6 py-6">
+    <section data-section="glossary">
+      <div class="prose dark:prose-invert max-w-none">
+        <!-- Content will be inserted here -->
+      </div>
+    </section>
+  </div>
+</div>

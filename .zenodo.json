@@ -1,0 +1,56 @@
+{
+    "creators": [
+        {
+            "name": "Fechner, Martin",
+            "orcid": "0000-0001-9233-0653",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "ProjectManager"
+        },
+        {
+            "name": "Sander, Ruth",
+            "orcid": "0009-0008-3678-9070",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Westphal, Tim",
+            "orcid": "0009-0000-8580-4558",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Burtea, Bogdan",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "ProjectLeader"
+        },
+        {
+            "name": "Markschies, Christoph",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "ProjectLeader"
+        },
+        {
+            "name": "Treml, Eleonora",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "Researcher"
+        },
+        {
+            "name": "Reichel, Merlin",
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "type": "Researcher"
+        }
+    ],
+    "title": "Ginza – Die \"Heilige Schrift\" der Mandäer: Digitale Edition",
+    "version": "1.0.0",
+    "access_right": "open",
+    "keywords": [
+        "Ginza",
+        "Mandaeism",
+        "Mandaic",
+        "digital scholarly edition",
+        "static Website",
+        "TEI-XML"
+    ],
+    "license": "mit",
+    "upload_type": "software",
+    "language": "ger, mand"
+}
